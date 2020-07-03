@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="pt-BR" class="full-height">
+
+<head>
+  <title>Biblioteca</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.default.css">
+</head>
+
+<body class="full-height">
+  <div class="shell">
+    <div class="navigation">
+      <a href="" class="navigation__user">
+        <img src="images/foto.jpg" alt="" class="navigation__user-item">
+        <div class="text text--center text--small  text--inverted navigation__name">Fulana</div>
+        <div class="navigation__notification">
+          <div class="text text--inverted text--bold">3</div>
+        </div>
+      </a>
+      <a href="" class="navigation__item is-active">
+        <img src="images/icons/proprietario.svg" class="navigation__icon" alt="">
+        <div class="navigation__title">
+          Proprietários
+        </div>
+      </a>
+      <a href="" class="navigation__item ">
+        <img src="images/icons/imoveis.svg" class="navigation__icon" alt="">
+        <div class="navigation__title text">
+          Imoveis
+        </div>
+      </a>
+      <a href="" class="navigation__item ">
+        <img src="images/icons/anuncios.svg" class="navigation__icon" alt="">
+        <div class="navigation__title">
+          Anúncios
+        </div>
+      </a>
+      <a href="" class="navigation__item ">
+        <img src="images/icons/config.svg" class="navigation__icon" alt="">
+        <div class="navigation__title">
+          Config
+        </div>
+      </a>
+      <a href="" class="navigation__logo">
+        <img src="images/logo.png" class="icon--logo" alt="">
+      </a>
+    </div>
+    <div class="top-bar top-bar--menu">
+      <div class="col col--pn-8 col--tb-4">
+        <div class="input">
+          <div class="input__info input__info--left ">
+            <input class="input__item" id="Name" name="Name" type="text" placeholder="">
+            <svg role="img" class="input__icon input__display--left">
+              <use xlink:href="images/icons/actions-sprite.svg#search"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="col col--pn-4 col--tb-8 align--right align--middle">
+        <div class="top-bar__items">
+          <nav class="col col--pn-12 align--right">
+            <button type="button" class="button--icon padding-horizontal--medium" title="Notificações">
+              <svg role="img" class="icon icon--primary icon--small">
+                <use xlink:href="images/icons/actions-sprite.svg#bell-inverted"></use>
+              </svg>
+            </button>
+            <button type="button" class="button--icon padding-horizontal--medium" title="Help">
+              <svg role="img" class="icon icon--primary icon--small">
+                <use xlink:href="images/icons/actions-sprite.svg#help-inverted"></use>
+              </svg>
+            </button>
+            <button type="button" class="button--icon padding-horizontal--medium" title="Configurações">
+              <svg role="img" class="icon icon--primary icon--small">
+                <use xlink:href="images/icons/actions-sprite.svg#settings-inverted"></use>
+              </svg>
+            </button>
+            <button type="button" class="button--icon padding-horizontal--medium" title="Sair">
+              <svg role="img" class="icon icon--primary icon--small">
+                <use xlink:href="images/icons/actions-sprite.svg#power"></use>
+              </svg>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="page-header page-header--menu">
+      <h1 class="title title--primary title--large">
+        Cadastro de Proprietário
+      </h1>
+      <div class="text text--medium">
+        Dados do Imóveis
+      </div>
+      <section class="breadcrumb">
+        <ul class="breadcrumb__box">
+          <li>
+            <a href="#">
+              <span>Home</span>
+            </a>
+          </li>
+          <li class="is-active">
+            <span>Dados do imóvel</span>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <div class="content content--menu">
+      <div class="row">
+        <div class="col col--sd-12">
+          <div class="progress-indicator">
+            <div class="progress-indicator__header">
+              <div class="progress-indicator__item is-active">
+                <div class="progress-indicator__numerator">1</div>
+                <span> Dados básicos</span>
+              </div>
+              <div class="progress-indicator__item ">
+                <div class="progress-indicator__numerator">2</div>
+                <span> Qual é o imóvel</span>
+              </div>
+              <div class="progress-indicator__item">
+                <div class="progress-indicator__numerator">3</div>
+                <span> Endereço</span>
+              </div>
+              <div class="progress-indicator__item">
+                <div class="progress-indicator__numerator">4</div>
+                <span> Qual é o imóvel</span>
+              </div>
+              <div class="progress-indicator__item">
+                <div class="progress-indicator__numerator">4</div>
+                <span> Qual é o imóvel</span>
+              </div>
+              <div class="progress-indicator__item">
+                <div class="progress-indicator__numerator">4</div>
+                <span> Qual é o imóvel</span>
+              </div>
+            </div>
+            <div class="progress-indicator__container padding--large">
+              <div class="row">
+                <div class="col col--sd-12 padding-bottom--large padding-horizontal--small">
+                  <h2 class="title title--medium title--primary">
+                    Quem é
+                  </h2>
+                  <span class="text text--medium text--primary">
+                    Dados sobre o proprietário.
+                  </span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col--sd-12 padding-bottom--small">
+                  <span class="label label--title">
+                    Tipo do proprietário
+                  </span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col--sd-12 col--md-6">
+                  <div class="button-selectable">
+                    <button type="button" title="Pessoa Física"
+                      class="button-selectable__item is-active margin-bottom--small">
+                      <img src="images/cpf.png" class="image padding-right--small image--extra-small">
+                      <span class="text text--undefined">
+                        Pessoa Física
+                      </span>
+                    </button>
+                    <button type="button" title="Pessoa Jurídica" class="button-selectable__item margin-bottom--small">
+                      <img src="images/cnpj.png" class="image padding-right--small image--extra-small">
+                      <span class="text text--undefined">
+                        Pessoa Jurídica
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col--sd-12 padding-top--large">
+                  <div class="row">
+                    <div class="col col--sd-12 col--md-6 padding-bottom--medium">
+                      <h3 class="title title--small title--secondary">
+                        Dados do proprietário pessoa física
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col col--sd-12 col--md-6 padding--small">
+                      <div class="input">
+                        <div class="col col--sd-12">
+                          <label class="label label--title" for="774a07d4-7bfd-4783-a114-fb9aac2f2579">
+                            Nome
+                          </label>
+                        </div>
+                        <div class="col col--sd-12">
+                          <div class="input__info">
+                            <input class="input__item" type="text" placeholder="Nome do proprietário" autocomplete="off"
+                              value="OZAIR N SOUZA">
+                          </div>
+                          <span class="text text--error"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col col--sd-12 col--md-6 padding--small">
+                      <div class="input">
+                        <div class="col col--sd-12"><label class="label label--title"
+                            for="8e0e66f7-271a-4ca9-b808-b16c19a41dfb">
+                            CPF
+                          </label>
+                        </div>
+                        <div class="col col--sd-12">
+                          <div class="input__info">
+                            <input type="text" class="input__item" placeholder="CPF do proprietário" autocomplete="off"
+                              value="321.598.756-87">
+                          </div><span class="text text--error"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col col--sd-12 col--md-6 padding--small">
+                      <div class="row">
+                        <div class="col col--sd-12">
+                          <div class="input">
+                            <div class="col col--sd-12">
+                              <label for="occupation" class="label label--title">
+                                Ocupação
+                              </label>
+                            </div>
+                            <div class="col col--sd-12">
+                              <span class="label label--description">
+                                Qual a ocupação do proprietário
+                              </span>
+                            </div>
+                            <div class="input__info input__info--right">
+                              <input class="input__item" type="text" placeholder="Selecione a ocupação"
+                                autocomplete="nope" value="Abastecedor">
+                                <span
+                                class="input__display input__display--right"><button type="button"
+                                  class="button--icon input__icon input__icon--right"><svg
+                                    class="icon icon--small icon--primary" viewBox="0 0 512 512">
+                                    <g>
+                                      <path
+                                        d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5 c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9 c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z">
+                                      </path>
+                                    </g>
+                                  </svg></button></span></div>
+                            <div class="combobox" role="combobox" aria-expanded="false" aria-controls="ex3-listbox">
+                            </div><span class="text text--error"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col col--sd-12 col--md-6 padding--small">
+                      <div class="toggle-group">
+                        <div class="col col--sd-12"><label for="gender" class="label label--title">Gênero</label></div>
+                        <div class="toggle-group__box align--left"><button type="button"
+                            class="toggle-group__item margin-horizontal--extra-small is-active">Masculino</button><button
+                            type="button"
+                            class="toggle-group__item margin-horizontal--extra-small">Feminino</button><button
+                            type="button" class="toggle-group__item margin-horizontal--extra-small">Outro</button></div>
+                        <span class="text text--error"></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col col--sd-12 col--md-6 padding--small">
+                      <div class="row">
+                        <div class="col col--sd-12 padding-bottom--medium">
+                          <div class="row" id="9b1a3e17-10bb-405c-a4f3-e76101a5c96d">
+                            <div class="col col--sd-12">
+                              <div class="row">
+                                <div class="col col--sd-12 padding-bottom--small">
+                                  <h4 class="title title--extra-small title--secondary">E-mails</h4>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col col--sd-12 padding-bottom--large">
+                                  <div class="row margin-bottom--small">
+                                    <div class="col col--sd-12">
+                                      <div class="box box--no-border">
+                                        <div class="box__container box__container--inverted">
+                                          <div class="row">
+                                            <div class="col col--sd-12 col--md-8 padding--small">
+                                              <div class="input">
+                                                <div class="col col--sd-12"><label class="label label--title"
+                                                    for="505ecf3d-fccc-4fb3-9ec5-adf66e4dc7be">E-mail</label></div>
+                                                <div class="col col--sd-12">
+                                                  <div class="input__info"><input class="input__item" type="text"
+                                                      placeholder="Endereço do e-mail" autocomplete="off" value=""
+                                                      id="505ecf3d-fccc-4fb3-9ec5-adf66e4dc7be"
+                                                      name="505ecf3d-fccc-4fb3-9ec5-adf66e4dc7be"></div><span
+                                                    class="text text--error"></span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col col--sd-12 col--md-4 padding--small">
+                                              <div class="toggle">
+                                                <div class="col col--sd-12"><span
+                                                    class="label label--title">Principal</span></div>
+                                                <div class="col col--sd-12"></div>
+                                                <div class="toggle__box"><button type="button"
+                                                    class="toggle__item">Sim</button><button type="button"
+                                                    class="toggle__item is-active">Não</button></div>
+                                              </div>
+                                            </div>
+                                            <div class="col col--sd-12 padding--small">
+                                              <div class="toggle-group">
+                                                <div class="col col--sd-12"><label for="emailType"
+                                                    class="label label--title">Tipo do e-mail</label></div>
+                                                <div class="toggle-group__box align--left"><button type="button"
+                                                    class="toggle-group__item margin-horizontal--extra-small is-active">Pessoal</button><button
+                                                    type="button"
+                                                    class="toggle-group__item margin-horizontal--extra-small">Profissional</button><button
+                                                    type="button"
+                                                    class="toggle-group__item margin-horizontal--extra-small">Terceiros</button>
+                                                </div><span class="text text--error"></span>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col col--sd-12 box__footer"><button type="button"
+                                            class="button-text button-text--primary button-text--small padding-horizontal--small"><svg
+                                              class="icon margin-right--small align--right icon--extra-small icon--primary"
+                                              stroke="currentColor" viewBox="0 0 24 24">
+                                              <g>
+                                                <path
+                                                  d="M22.27 13.47l-8.8 0 0 8.8 -2.94 0 0 -8.8 -8.8 0 0 -2.94 8.8 0 0 -8.8 2.94 0 0 8.8 8.8 0 0 2.94z">
+                                                </path>
+                                              </g>
+                                            </svg> <span>Adicionar e-mail</span></button></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col col--sd-12 padding-bottom--large">
+                              <div class="row margin-bottom--small">
+                                <div class="col col--sd-12">
+                                  <div class="box">
+                                    <div class="box__container">
+                                      <div class="row">
+                                        <div class="col col--sd-12 col--tb-6 padding--small">
+                                          <div class="info">
+                                            <div class="col col--sd-12"><span class="info__title">E-mail</span><span
+                                                class="info__text">ozair.novais@gmail.com</span></div>
+                                          </div>
+                                        </div>
+                                        <div class="col col--sd-12 col--tb-3 padding--small">
+                                          <div class="info">
+                                            <div class="col col--sd-12"><span class="info__title">Tipo do
+                                                e-mail</span><span class="info__text">Pessoal</span></div>
+                                          </div>
+                                        </div>
+                                        <div class="col col--sd-12 col--tb-3 padding--small">
+                                          <div class="info">
+                                            <div class="col col--sd-12"><span class="info__title">Principal</span><span
+                                                class="info__text">Sim</span></div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col col--sd-12 box__footer"><button type="button"
+                                        class="button-text button-text--primary button-text--small padding-horizontal--small is-disabled"
+                                        disabled=""><svg
+                                          class="icon margin-right--small align--right icon--extra-small icon--primary"
+                                          stroke="currentColor" viewBox="0 0 24 24">
+                                          <g>
+                                            <path d="M22.02 13.43l-20.04 0 0 -2.86 20.04 0 0 2.86z"></path>
+                                          </g>
+                                        </svg> <span>Remover e-mail</span></button></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col col--sd-12 col--md-6 padding--small">
+                      <div class="row">
+                        <div class="col col--sd-12 padding-bottom--medium">
+                          <div class="row" id="0bdbbf88-8923-410d-88a6-013db15cd41f">
+                            <div class="col col--sd-12">
+                              <div class="row">
+                                <div class="col col--sd-12 padding-bottom--small">
+                                  <h4 class="title title--extra-small title--secondary">Telefones</h4>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col col--sd-12 padding-bottom--large">
+                                  <div class="row margin-bottom--small">
+                                    <div class="col col--sd-12">
+                                      <div class="box box--no-border">
+                                        <div class="box__container box__container--inverted">
+                                          <div class="row">
+                                            <div class="col col--sd-12 col--md-8 padding--small">
+                                              <div class="input">
+                                                <div class="col col--sd-12"><label class="label label--title"
+                                                    for="db8fff47-b7fd-45cf-a960-31704857972e">Telefone</label></div>
+                                                <div class="col col--sd-12">
+                                                  <div class="input__info"><input type="text" class="input__item"
+                                                      placeholder="Número do telefone" autocomplete="off" value=""
+                                                      id="db8fff47-b7fd-45cf-a960-31704857972e"
+                                                      name="db8fff47-b7fd-45cf-a960-31704857972e"></div><span
+                                                    class="text text--error"></span>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="col col--sd-12 col--md-4 padding--small">
+                                              <div class="toggle">
+                                                <div class="col col--sd-12"><span
+                                                    class="label label--title">Principal</span></div>
+                                                <div class="col col--sd-12"></div>
+                                                <div class="toggle__box"><button type="button"
+                                                    class="toggle__item">Sim</button><button type="button"
+                                                    class="toggle__item is-active">Não</button></div>
+                                              </div>
+                                            </div>
+                                            <div class="col col--sd-12 padding--small">
+                                              <div class="toggle-group">
+                                                <div class="col col--sd-12"><label for="phoneType"
+                                                    class="label label--title">Tipo do telefone</label></div>
+                                                <div class="toggle-group__box align--left"><button type="button"
+                                                    class="toggle-group__item margin-horizontal--extra-small">Celular</button><button
+                                                    type="button"
+                                                    class="toggle-group__item margin-horizontal--extra-small">Comercial</button><button
+                                                    type="button"
+                                                    class="toggle-group__item margin-horizontal--extra-small">Outros</button><button
+                                                    type="button"
+                                                    class="toggle-group__item margin-horizontal--extra-small is-active">Residêncial</button>
+                                                </div><span class="text text--error"></span>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col col--sd-12 box__footer"><button type="button"
+                                            class="button-text button-text--primary button-text--small padding-horizontal--small"><svg
+                                              class="icon margin-right--small align--right icon--extra-small icon--primary"
+                                              stroke="currentColor" viewBox="0 0 24 24">
+                                              <g>
+                                                <path
+                                                  d="M22.27 13.47l-8.8 0 0 8.8 -2.94 0 0 -8.8 -8.8 0 0 -2.94 8.8 0 0 -8.8 2.94 0 0 8.8 8.8 0 0 2.94z">
+                                                </path>
+                                              </g>
+                                            </svg> <span>Adicionar telefone</span></button></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col col--sd-12 padding-bottom--large">
+                              <div class="row margin-bottom--small">
+                                <div class="col col--sd-12">
+                                  <div class="box">
+                                    <div class="box__container">
+                                      <div class="row">
+                                        <div class="col col--sd-12 col--tb-6 padding--small">
+                                          <div class="info">
+                                            <div class="col col--sd-12"><span class="info__title">Telefone</span><span
+                                                class="info__text">(34) 9919-9554</span></div>
+                                          </div>
+                                        </div>
+                                        <div class="col col--sd-12 col--tb-3 padding--small">
+                                          <div class="info">
+                                            <div class="col col--sd-12"><span class="info__title">Tipo do
+                                                telefone</span><span class="info__text">Residêncial</span></div>
+                                          </div>
+                                        </div>
+                                        <div class="col col--sd-12 col--tb-3 padding--small">
+                                          <div class="info">
+                                            <div class="col col--sd-12"><span class="info__title">Principal</span><span
+                                                class="info__text">Sim</span></div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col col--sd-12 box__footer"><button type="button"
+                                        class="button-text button-text--primary button-text--small padding-horizontal--small is-disabled"
+                                        disabled=""><svg
+                                          class="icon margin-right--small align--right icon--extra-small icon--primary"
+                                          stroke="currentColor" viewBox="0 0 24 24">
+                                          <g>
+                                            <path d="M22.02 13.43l-20.04 0 0 -2.86 20.04 0 0 2.86z"></path>
+                                          </g>
+                                        </svg> <span>Remover telefone</span></button></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="progress-indicator__footer">
+              <div class="col col--sd-6">
+                <button type="button" class="button button--secondary">
+                  <svg class="icon margin-right--small align--right icon--small icon--primary" viewBox="0 0 24 24">
+                    <g>
+                      <path d="M18.2,19.6L10.5,12l7.6-7.6L15.8,2l-10,10l10,10L18.2,19.6z"></path>
+                    </g>
+                  </svg>
+                  <span>Voltar</span>
+                </button>
+              </div>
+              <div class="col col--sd-6 align--right">
+                <button type="button" class="button button--primary">
+                  <span>Avançar</span>
+                  <svg class="icon margin-left--small align--right icon--small icon--primary" viewBox="0 0 24 24">
+                    <g>
+                      <path d="M5.8,19.6l7.6-7.6L5.8,4.3L8.2,2l10,10l-10,10L5.8,19.6z"></path>
+                    </g>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

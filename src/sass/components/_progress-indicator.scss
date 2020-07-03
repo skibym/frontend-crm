@@ -1,0 +1,95 @@
+.progress-indicator{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  box-shadow: $shadow;
+}
+
+.progress-indicator__header{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: $space--medium;
+  padding: $space--medium;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);;
+  background-color: $background--clean;
+
+
+  .progress-indicator__item{
+    display: none;
+    align-items: center;
+    font-family: $font-pattern;
+    font-size: $text--small;
+    margin: $space--medium;
+    padding: 0;
+    box-sizing: border-box;
+    color: $color--disabled;
+    flex-grow: 1;
+
+    &.is-active{
+      display: flex;
+
+      .progress-indicator__numerator{
+        background-color: $color--primary-700;
+        width: 48px;
+        height: 48px;
+        font-size: $text--large;
+      }
+
+      span{
+        color: $text--primary;
+        font-weight: $text-weight--large;
+        font-size: $text--medium;
+      }
+    }
+
+    &.is-done{
+      .progress-indicator__numerator{
+       background-color: $color--success;
+      }
+
+      span{
+        color: $text--primary;
+        font-weight: $text-weight--medium;
+      }
+    }
+
+    @media #{$medium-devices}{
+      display: flex;
+    }
+
+    .progress-indicator__numerator{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 100%;
+      background-color: $color--strokes;
+      width: 32px;
+      height: 32px;
+      margin-right: $space--small;
+      font-weight: $text-weight--large;
+      color: $text--inverted;
+    }
+  }
+}
+
+.progress-indicator__container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: $space--large;
+  position: relative;
+  background-color: $background--clean;
+}
+
+.progress-indicator__footer{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: $background--medium;
+  padding: $space--medium;
+
+  .button{
+    min-width: 130px;
+  }
+}

@@ -1,0 +1,46 @@
+.status-panel{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: stretch;
+  border: $border--small $color--strokes;
+  background-color: $background--clean;
+  padding: $space--medium;
+}
+
+.status-panel__icon{
+  display: flex;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  margin-right: $space--medium;
+  border-radius: 100%;
+  background-color: $background--light;
+}
+
+.status-panel__display{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  flex-grow: 1;
+  width: 70%;
+
+  @media #{$phones}{
+     width: 33%;
+  }
+}
+
+.status-panel__link{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100%;
+  padding-top: 10px;
+
+  @media #{$phones}{
+    width: unset;
+ }
+
+}

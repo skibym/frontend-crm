@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Creator: CorelDRAW 2018 (64 Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="48px" height="48px" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 48 48"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#EDF1FD;stroke-width:2.36;stroke-miterlimit:22.9256}
+    .fil2 {fill:#8CAAF4}
+    .fil1 {fill:#BACDF4}
+    .fil3 {fill:#EDF1FD}
+    .fil0 {fill:white}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1853899436400">
+   <path class="fil0" d="M7.76 9.78l32.48 0c2.06,0 3.74,2.16 3.74,4.81l0 24.12c0,2.65 -1.68,4.82 -3.74,4.82l-32.48 0c-2.06,0 -3.74,-2.17 -3.74,-4.82l0 -24.12c0,-2.65 1.68,-4.81 3.74,-4.81z"/>
+   <path class="fil1" d="M4.02 10.01l39.96 0 0 4.1c0,2.31 -0.91,4.2 -2.02,4.2l-35.92 0c-1.11,0 -2.02,-1.89 -2.02,-4.2l0 -4.1z"/>
+   <path class="fil2" d="M9.92 4.64l2.18 0c0.6,0 1.09,0.77 1.09,1.71l0 6.85c0,0.94 -0.49,1.71 -1.09,1.71l-2.18 0c-0.6,0 -1.09,-0.77 -1.09,-1.71l0 -6.85c0,-0.94 0.49,-1.71 1.09,-1.71z"/>
+   <path class="fil2" d="M18.8 4.64l2.18 0c0.6,0 1.09,0.77 1.09,1.71l0 6.85c0,0.94 -0.49,1.71 -1.09,1.71l-2.18 0c-0.6,0 -1.09,-0.77 -1.09,-1.71l0 -6.85c0,-0.94 0.49,-1.71 1.09,-1.71z"/>
+   <path class="fil2" d="M27.93 4.48l2.18 0c0.6,0 1.09,0.76 1.09,1.71l0 6.84c0,0.94 -0.49,1.71 -1.09,1.71l-2.18 0c-0.6,0 -1.09,-0.77 -1.09,-1.71l0 -6.84c0,-0.95 0.49,-1.71 1.09,-1.71z"/>
+   <path class="fil2" d="M36.18 4.81l2.19 0c0.6,0 1.09,0.77 1.09,1.71l0 6.85c0,0.94 -0.49,1.71 -1.09,1.71l-2.19 0c-0.6,0 -1.08,-0.77 -1.08,-1.71l0 -6.85c0,-0.94 0.48,-1.71 1.08,-1.71z"/>
+   <rect class="fil3 str0" x="8.41" y="23.81" width="4.5" height="4.5"/>
+   <rect class="fil3 str0" x="8.41" y="33.06" width="4.5" height="4.5"/>
+   <rect class="fil3 str0" x="17.41" y="24.31" width="4.5" height="4.5"/>
+   <rect class="fil3 str0" x="17.91" y="33.31" width="4.5" height="4.5"/>
+   <rect class="fil3 str0" x="26.91" y="24.27" width="4.5" height="4.5"/>
+   <rect class="fil3 str0" x="35.41" y="24.31" width="4.5" height="4.5"/>
+   <rect class="fil3 str0" x="26.91" y="33.06" width="4.5" height="4.5"/>
+   <rect class="fil3 str0" x="35.91" y="33.31" width="4.5" height="4.5"/>
+  </g>
+ </g>
+</svg>

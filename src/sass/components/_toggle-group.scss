@@ -1,0 +1,69 @@
+.toggle-group {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  position: relative;
+}
+
+.toggle-group__box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+
+  @media #{$phones} {
+    flex-wrap: nowrap;
+  }
+}
+
+.toggle-group__item {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  width: 100%;
+  height: 36px;
+  font-weight: $text-weight--medium;
+  font-size: $text--small;
+  font-family: $font-pattern;
+  padding: $space--small $space--medium;
+  border-radius: $border--radius;
+  margin-bottom: $space--small;
+  justify-content: center;
+  cursor: pointer;
+  border: $border--small $color--strokes;
+  color: $text--secondary;
+  background-color: $background--medium;
+
+  &.is-active {
+    background-color: $color--primary-200;
+    color: $color--primary-700;
+    font-weight: $text-weight--large;
+    font-size: $text--medium;
+    border: $border--small $color--primary-700;
+  }
+
+  &.is-disabled {
+    background-color: $color--disabled;
+    color: $text--primary;
+    cursor: no-drop;
+    @include transition(background-color, color, $transition);
+
+    svg {
+      fill: $text--primary;
+      @include transition(fill, $transition);
+    }
+
+    &:focus {
+      border: 0;
+      box-shadow: none;
+    }
+
+    &:hover {
+      background-color: $color--disabled;
+    }
+  }
+
+  @media #{$tablets} {
+    min-width: 75px;
+  }
+}

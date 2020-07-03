@@ -1,0 +1,74 @@
+.drag-upload{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  margin: $space--medium 0 $space--large 0;
+}
+
+.drag-upload__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: $space--extra-large;
+  outline: 2px dashed $color--strokes;
+  outline-offset: -10px;
+  background-color: $background--clean;
+}
+
+.drag-upload__input{
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.drag-upload__label{
+  max-width: 80%;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.drag-upload__button{
+  display: none;
+}
+
+.drag-upload__info{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: $space--large 0;
+  padding: 0;
+  list-style: none;
+}
+
+.drag-upload__item{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: $space--small 0;
+  padding: $space--small;
+  list-style: none;
+  background-color: $color--error;
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.025) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, 0.025) 50%, rgba(0, 0, 0, 0.025) 75%, transparent 75%, transparent);
+  background-size: 64px 64px;
+
+  .text{
+    color: white;
+  }
+}
+
+.is-dragover{
+  outline: 2px dashed $color--inverted;
+  background-color: $background--primary;
+
+  .text{
+    color: $text--inverted;
+  }
+}

@@ -1,0 +1,12 @@
+.shell{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 60px;
+
+  @media #{$tablets} {
+    padding-top: 49px;
+    margin-bottom: 0;
+  }
+}

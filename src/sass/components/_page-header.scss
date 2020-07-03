@@ -1,0 +1,14 @@
+.page-header{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: $space--medium;
+  box-sizing: border-box;
+}
+
+.page-header--menu{
+  @media #{$tablets} {
+    margin-left: 95px;
+    padding: $space--medium $space--large;
+  }
+}

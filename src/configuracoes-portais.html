@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="pt-BR" class="full-height">
+
+<head>
+  <title>Biblioteca</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.default.css">
+</head>
+
+<body class="full-height">
+  <div class="shell">
+    <div class="navigation">
+      <a href="" class="navigation__user">
+        <img src="images/foto.jpg" alt="" class="navigation__user-item">
+        <div class="text text--center text--small  text--inverted navigation__name">Fulana</div>
+        <div class="navigation__notification">
+          <div class="text text--inverted text--bold">3</div>
+        </div>
+      </a>
+      <a href="" class="navigation__item is-active">
+        <img src="images/icons/proprietario.svg" class="navigation__icon" alt="">
+        <div class="navigation__title">
+          Proprietários
+        </div>
+      </a>
+      <a href="" class="navigation__item ">
+        <img src="images/icons/imoveis.svg" class="navigation__icon" alt="">
+        <div class="navigation__title text">
+          Imoveis
+        </div>
+      </a>
+      <a href="" class="navigation__item ">
+        <img src="images/icons/anuncios.svg" class="navigation__icon" alt="">
+        <div class="navigation__title">
+          Anúncios
+        </div>
+      </a>
+      <a href="" class="navigation__item ">
+        <img src="images/icons/config.svg" class="navigation__icon" alt="">
+        <div class="navigation__title">
+          Config
+        </div>
+      </a>
+      <a href="" class="navigation__logo">
+        <img src="images/logo.png" class="icon--logo" alt="">
+      </a>
+    </div>
+    <div class="top-bar top-bar--menu">
+      <div class="col col--pn-8 col--tb-4">
+        <div class="input">
+          <div class="input__info input__info--left ">
+            <input class="input__item" id="Name" name="Name" type="text" placeholder="">
+            <svg role="img" class="input__icon input__display--left">
+              <use xlink:href="images/icons/actions-sprite.svg#search"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="col col--pn-4 col--tb-8 align--right align--middle">
+        <div class="top-bar__items">
+          <nav class="col col--pn-12 align--right">
+            <button type="button" class="button--icon padding-horizontal--medium" title="Notificações">
+              <svg role="img" class="icon icon--primary icon--small">
+                <use xlink:href="images/icons/actions-sprite.svg#bell-inverted"></use>
+              </svg>
+            </button>
+            <button type="button" class="button--icon padding-horizontal--medium" title="Help">
+              <svg role="img" class="icon icon--primary icon--small">
+                <use xlink:href="images/icons/actions-sprite.svg#help-inverted"></use>
+              </svg>
+            </button>
+            <button type="button" class="button--icon padding-horizontal--medium" title="Configurações">
+              <svg role="img" class="icon icon--primary icon--small">
+                <use xlink:href="images/icons/actions-sprite.svg#settings-inverted"></use>
+              </svg>
+            </button>
+            <button type="button" class="button--icon padding-horizontal--medium" title="Sair">
+              <svg role="img" class="icon icon--primary icon--small">
+                <use xlink:href="images/icons/actions-sprite.svg#power"></use>
+              </svg>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="page-header page-header--menu">
+      <h1 class="title title--primary title--large">
+        Imóveis
+      </h1>
+      <div class="text text--medium">
+        Dados do Imóveis
+      </div>
+      <section class="breadcrumb">
+        <ul class="breadcrumb__box">
+          <li>
+            <a href="#">
+              <span>Home</span>
+            </a>
+          </li>
+          <li class="is-active">
+            <span>Dados do imóvel</span>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <div class="content content--menu">
+      <div class="row">
+        <div class="col col--pn-12 padding-vertical--medium">
+          <div class="box box--shadow ">
+            <div class="box__container padding--large">
+              <div class="row">
+                <div class="col col--pn-12 margin-bottom--large">
+                  <h2 class="title title--primary title--extra-small ">Portais de divulgação</h2>
+                  <div class="text text--medium text--primary">
+                    Determinar quais portais de divulgação de imóveis devem ser apresentados como padrão e se os mesmos
+                    devem vir selecionados.
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col--pn-10 col--tb-4">
+                  <div class="input">
+                    <div class="col col--pn-12">
+                      <label for="input1" class="label label--title">Portal</label>
+                      <span class="label label--description">Busque o portal </span>
+                    </div>
+                    <div class="col col--pn-12">
+                      <div class="input__info">
+                        <input class="input__item" id="input1" name="input1" type="text" placeholder="" value=""></div>
+                      <span class="text text--error"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col--pn-2 align--bottom padding-horizontal--small">
+                  <button type="button" class="button button--primary button--form">
+                    <svg role="img" class="icon icon--small">
+                      <use xlink:href="images/icons/actions-sprite.svg#search"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col--pn-12">
+                  <div class="box ">
+                    <div class="box__container scrollable-box scrollable-box--medium">
+                      <div class="row">
+                        <div class="col col--pn-12 padding-vertical--small">
+                          <div class="box ">
+                            <div class="box__container">
+                              <div class="col col--sd-12 col--pn-3 col--md-1  padding--small"">
+                                <img src="images/portais-divulgacao/viva-real.jpg" class="image image--large image--border"
+                                  alt="">
+                              </div>
+                              <div class="col col--sd-12 col--pn-9 col--md-11 padding--small">
+                                <h5 class="title title--primary title--small padding-bottom--medium">Viva Real</h5>
+                                <div class="text text--primary text--small">
+                                  Grupo ZAP Viva Real é uma holding fundada em novembro de 2017 como resultado da fusão
+                                  dos
+                                  portais de classificados de imóveis ZAP e VivaReal,
+                                </div>
+                              </div>
+                            </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col col--pn-12 padding-vertical--small">
+                          <div class="box ">
+                            <div class="box__container">
+                              <div class="col col--sd-12 col--pn-3 col--md-1">
+                                <img src="images/portais-divulgacao/viva-real.jpg" class="image image--large padding--extra-small"
+                                  alt="">
+                              </div>
+                              <div class="col col--sd-12 col--pn-9 col--md-11 padding--medium">
+                                <h5 class="title title--primary title--small padding-bottom--medium">Viva Real</h5>
+                                <div class="text text--primary text--small">
+                                  Grupo ZAP Viva Real é uma holding fundada em novembro de 2017 como resultado da fusão
+                                  dos
+                                  portais de classificados de imóveis ZAP e VivaReal,
+                                </div>
+                              </div>
+                            </div>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col col--pn-12 padding-vertical--small">
+                          <div class="box ">
+                            <div class="box__container">
+                              <div class="col col--sd-12 col--pn-3 col--md-1">
+                                <img src="images/portais-divulgacao/viva-real.jpg" class="image image--large padding--extra-small"
+                                  alt="">
+                              </div>
+                              <div class="col col--sd-12 col--pn-9 col--md-11 padding--medium">
+                                <h5 class="title title--primary title--small padding-bottom--medium">Viva Real</h5>
+                                <div class="text text--primary text--small">
+                                  Grupo ZAP Viva Real é uma holding fundada em novembro de 2017 como resultado da fusão
+                                  dos
+                                  portais de classificados de imóveis ZAP e VivaReal,
+                                </div>
+                              </div>
+                            </div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col--pn-12 padding-vertical--medium">
+            <div class="box box--shadow">
+              <div class="box__container padding--large">
+                <div class="row">
+                  <div class="col col--pn-12 margin-bottom--large">
+                    <h2 class="title title--primary title--extra-small ">Meus portais</h2>
+                    <div class="text text--medium text--primary">
+                      Portais que já estou utilizando
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col col--sd-12 col--pn-6  padding-horizontal--small padding-vertical--large">
+                    <div class="box ">
+                      <div class="box__container">
+                        <div class="col col--sd-12  col--md-4 padding--small">
+                          <img src="images/portais-divulgacao/viva-real.jpg" class="image image--large" alt="">
+                        </div>
+                        <div class="col col--sd-12  col--md-8 padding--small">
+                          <h5 class="title title--primary title--small padding-bottom--large">Viva Real</h5>
+                          <div class="text text--primary text--medium">
+                            Grupo ZAP Viva Real é uma holding fundada em novembro de 2017 como resultado da fusão
+                            dos
+                            portais de classificados de imóveis ZAP e VivaReal,
+                          </div>
+                          <div class="col col--sd-12 padding-top--large align--right">
+                            <div class="col col--sd-6 col--md-4 padding-horizontal--extra-small">
+                              <div class="toggle-group__box">
+                                <button class="toggle-group__item is-active">Habilitado</button>
+                              </div>
+                            </div>
+                            <div class="col col--sd-6 col--md-4 padding-horizontal--extra-small">
+                              <div class="toggle-group__box">
+                                <button class="toggle-group__item ">Padrão</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="box__footer">
+                        <a href="" class="link link--primary link--medium ">
+                          <svg role="img" class="icon icon--extra-small margin-right--small">
+                            <use xlink:href="images/icons/actions-sprite.svg#settings"></use>
+                          </svg>
+                          <span>Configurações</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col col--sd-12 col--pn-6  padding-horizontal--small padding-vertical--large">
+                    <div class="box ">
+                      <div class="box__container">
+                        <div class="col col--sd-12  col--md-4 padding--small">
+                          <img src="images/portais-divulgacao/viva-real.jpg" class="image image--large" alt="">
+                        </div>
+                        <div class="col col--sd-12  col--md-8 padding--small">
+                          <h5 class="title title--primary title--small padding-bottom--large">Viva Real</h5>
+                          <div class="text text--primary text--medium">
+                            Grupo ZAP Viva Real é uma holding fundada em novembro de 2017 como resultado da fusão
+                            dos
+                            portais de classificados de imóveis ZAP e VivaReal,
+                          </div>
+                          <div class="col col--sd-12 padding-top--large align--right">
+                            <div class="col col--sd-6 col--md-4 padding-horizontal--extra-small">
+                              <div class="toggle-group__box">
+                                <button class="toggle-group__item is-active">Habilitado</button>
+                              </div>
+                            </div>
+                            <div class="col col--sd-6 col--md-4 padding-horizontal--extra-small">
+                              <div class="toggle-group__box">
+                                <button class="toggle-group__item ">Padrão</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="box__footer">
+                        <a href="" class="link link--primary link--medium ">
+                          <svg role="img" class="icon icon--extra-small margin-right--small">
+                            <use xlink:href="images/icons/actions-sprite.svg#settings"></use>
+                          </svg>
+                          <span>Configurações</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col col--sd-12 col--pn-6  padding-horizontal--small padding-vertical--large">
+                    <div class="box ">
+                      <div class="box__container">
+                        <div class="col col--sd-12  col--md-4 padding--small">
+                          <img src="images/portais-divulgacao/viva-real.jpg" class="image image--large" alt="">
+                        </div>
+                        <div class="col col--sd-12  col--md-8 padding--small">
+                          <h5 class="title title--primary title--small padding-bottom--large">Viva Real</h5>
+                          <div class="text text--primary text--medium">
+                            Grupo ZAP Viva Real é uma holding fundada em novembro de 2017 como resultado da fusão
+                            dos
+                            portais de classificados de imóveis ZAP e VivaReal,
+                          </div>
+                          <div class="col col--sd-12 padding-top--large align--right">
+                            <div class="col col--sd-6 col--md-4 padding-horizontal--extra-small">
+                              <div class="toggle-group__box">
+                                <button class="toggle-group__item is-active">Habilitado</button>
+                              </div>
+                            </div>
+                            <div class="col col--sd-6 col--md-4 padding-horizontal--extra-small">
+                              <div class="toggle-group__box">
+                                <button class="toggle-group__item ">Padrão</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="box__footer">
+                        <a href="" class="link link--primary link--medium ">
+                          <svg role="img" class="icon icon--extra-small margin-right--small">
+                            <use xlink:href="images/icons/actions-sprite.svg#settings"></use>
+                          </svg>
+                          <span>Configurações</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col col--sd-12 col--pn-6  padding-horizontal--small padding-vertical--large">
+                    <div class="box ">
+                      <div class="box__container">
+                        <div class="col col--sd-12  col--md-4 padding--small">
+                          <img src="images/portais-divulgacao/viva-real.jpg" class="image image--large" alt="">
+                        </div>
+                        <div class="col col--sd-12  col--md-8 padding--small">
+                          <h5 class="title title--primary title--small padding-bottom--large">Viva Real</h5>
+                          <div class="text text--primary text--medium">
+                            Grupo ZAP Viva Real é uma holding fundada em novembro de 2017 como resultado da fusão
+                            dos
+                            portais de classificados de imóveis ZAP e VivaReal,
+                          </div>
+                          <div class="col col--sd-12 padding-top--large align--right">
+                            <div class="col col--sd-6 col--md-4 padding-horizontal--extra-small">
+                              <div class="toggle-group__box">
+                                <button class="toggle-group__item is-active">Habilitado</button>
+                              </div>
+                            </div>
+                            <div class="col col--sd-6 col--md-4 padding-horizontal--extra-small">
+                              <div class="toggle-group__box">
+                                <button class="toggle-group__item ">Padrão</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="box__footer">
+                        <a href="" class="link link--primary link--medium ">
+                          <svg role="img" class="icon icon--extra-small margin-right--small">
+                            <use xlink:href="images/icons/actions-sprite.svg#settings"></use>
+                          </svg>
+                          <span>Configurações</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

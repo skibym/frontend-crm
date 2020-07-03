@@ -1,0 +1,103 @@
+.slide {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.slide__controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.slide__bullets {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: $space--medium;
+
+  .icon {
+    height: 16px;
+  }
+
+  &:hover {
+    .button--icon {
+      outline: none;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.bullet__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 0;
+  border-radius: 3px;
+  padding: 2px;
+  cursor: pointer;
+  background-color: unset;
+  height: unset;
+  opacity: 0.6;
+  width: 16px;
+  color: $text--inverted;
+
+  &.is-active {
+    opacity: 1;
+    width: 22px;
+  }
+}
+
+.slide__item {
+  height: 100%;
+  overflow: hidden;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  min-width: 40px;
+  border: 0;
+  cursor: pointer;
+  background-color: unset;
+  align-items: center;
+
+  &:hover {
+    outline: none;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:first-child{
+    background-image: linear-gradient(to left, transparent, rgba(29, 51, 110, 0.3));
+
+
+  }
+
+  &:last-child{
+    background-image: linear-gradient(to right, transparent, rgba(29, 51, 110, 0.3));
+  }
+
+  &.is-disabled {
+    opacity: 0;
+  }
+}
+
+.slide__content {
+  display: flex;
+  width: 100%;
+}
+
+.slide--release {
+  height: 500px;
+}

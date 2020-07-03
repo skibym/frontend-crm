@@ -1,0 +1,1967 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <title>Biblioteca</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/main.default.css" />
+</head>
+
+<body>
+  <div class="row">
+    <h1 class="title title--primary margin-vertical--large">Avatar</h1>
+  </div>
+  <div class="row">
+    <div class="col col--pn-4">
+      <div class="avatar">
+        <div class=avatar__picture>
+          <img src="images/foto.jpg" alt="">
+        </div>
+        <div class="avatar__name">
+          Dervanil Junior
+        </div>
+      </div>
+    </div>
+    <div class="col col--pn-4">
+      <div class="avatar">
+        <div class=avatar__abbreviation>
+          <div class="text text--extra-large text--bold">DJ</div>
+        </div>
+        <div class="avatar__name">
+          Dervanil Junior
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <h1 class="title title--primary margin-vertical--large">Button</h1>
+  </div>
+  <div class="row padding-bottom--large">
+    <div class="col col--pn-2">
+      <button type="button" class="button button--primary">Button primary</button>
+    </div>
+    <div class="col col--pn-2">
+      <button type="button" class="button button--secondary">Button secondary</button>
+    </div>
+    <div class="col col--pn-2">
+      <button type="button" class="button button--tertiary">Button tertiary</button>
+    </div>
+    <div class="col col--pn-2">
+      <button type="button" class="button  button--primary is-disabled">
+        <svg role="img" class="icon margin-right--small icon--extra-small">
+          <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+          <span>Button is-disabled</span>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div class="row padding-bottom--large">
+    <div class="col col--pn-2">
+      <button type="button" class="button  button--primary">
+        <span>Button</span>
+        <svg role="img" class="icon margin-left--small icon--loading icon--small">
+          <use xlink:href="images/icons/actions-sprite.svg#loading"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="col col--pn-2">
+      <button type="button" class="button  button--secondary">
+        <span>Button</span>
+        <svg role="img" class="icon margin-left--small icon--small">
+          <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="col col--pn-2">
+      <button type="button" class="button  button--tertiary">
+        <span>Button</span>
+        <svg role="img" class="icon margin-left--small icon--small">
+          <use xlink:href="images/icons/actions-sprite.svg#chevron-right"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="col col--pn-2">
+      <button type="button" class="button  button--primary is-loading">
+        <span>
+          Button is-loading
+        </span>
+        <svg role="img" class="icon margin-left--small icon--loading icon--small">
+          <use xlink:href="images/icons/actions-sprite.svg#loading"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="row">
+    <h1 class="title title--primary margin-vertical--large">
+      Button--icon
+    </h1>
+  </div>
+  <div class="row">
+    <div class="col col--pn-2">
+      <button type="button" class="button button--icon">
+        <svg role="img" class="icon icon--large icon--primary">
+          <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div class="row">
+    <h1 class="title title--primary margin-vertical--large">
+      Button-text
+    </h1>
+  </div>
+  <div class="row margin-bottom--large">
+    <div class="col col--sd-2">
+      <button type="button" class="button-text  button-text--primary ">
+        <svg role="img" class="icon margin-right--small icon--extra-small">
+          <use xlink:href="images/icons/actions-sprite.svg#chevron-down">
+        </svg>
+        <span>
+          Button-text primary
+        </span>
+      </button>
+    </div>
+    <div class="col col--sd-2">
+      <button type="button" class="button-text  button-text--secondary ">
+        <svg role="img" class="icon margin-right--small icon--extra-small">
+          <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+        </svg>
+        <span>
+          Button-text secondary
+        </span>
+      </button>
+    </div>
+    <div class="col col--sd-2">
+      <button type="button" class="button-text  button-text--inverted ">
+        <svg role="img" class="icon margin-right--small icon--extra-small">
+          <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+        </svg>
+        <span>
+          Button-text inverted
+        </span>
+      </button>
+    </div>
+    <div class="col col--sd-2">
+      <button type="button" class="button-text  button-text--primary is-disabled" disabled>
+        <svg role="img" class="icon margin-right--small icon--extra-small">
+          <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+        </svg>
+        <span>
+          Button-text is-disabled
+        </span>
+      </button>
+    </div>
+  </div>
+  <div class="row">
+    <h1 class="title title--primary margin-vertical--large">Button-selectable</h1>
+  </div>
+  <div class="row padding-bottom--large">
+    <div class="col col--pn-6">
+      <div class="button-selectable">
+        <button type="button" title="Pessoa fisica" class="button-selectable__item is-active margin-bottom--small">
+          <img src="images/cnpj.png" class="padding-right--small image image--extra-small">
+          <span class="text text--medium text--bold text--primary">Pessoa fisica</span>
+        </button>
+        <button type="button" title="Pessoa juridica" class="button-selectable__item margin-bottom--small">
+          <img src="images/cpf.png" class="padding-right--small image image--extra-small">
+          <span class="text text--medium text--bold text--primary">Pessoa juridica</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <h1 class="title title--primary margin-vertical--large">Inputs</h1>
+  </div>
+  <div class="row">
+    <div class="col col--pn-6 padding--small ">
+      <div class="row">
+        <div class="col col--pn-12">
+          <label for="input1" class="label label--title">
+            label title
+          </label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col--pn-12">
+          <span class="label label--description">
+            label--description
+          </span>
+          <span class="label label--optional">
+            ( label--optional )
+          </span>
+        </div>
+      </div>
+      <div class="input">
+        <input class="input__item" id="Name" name="Name" type="text" placeholder="input__item" />
+        <span class="text text--error">
+          Alerta 1
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col col--sd-12 col--md-6 padding--small">
+      <div class="input">
+        <div class="row">
+          <div class="col col--sd-12">
+            <label for="dataCollectors" class="label label--title">
+              label title
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col--sd-12">
+            <span class="label label--description">
+              label--description input__info input__info--right
+            </span>
+          </div>
+        </div>
+        <div class="input__info input__info--right">
+          <input class="input__item" placeholder="input__display input__display--right">
+          <span class="input__display input__display--right">
+            <button type="button" class="button--icon input__icon input__icon--right">
+              <svg class="icon icon--small icon--primary" viewBox="0 0 24 24">
+                <g>
+                  <path d="M4.4,5.9l7.6,7.6l7.6-7.6l2.3,2.4L12,18.1L2.1,8.2L4.4,5.9z"></path>
+                </g>
+              </svg>
+            </button>
+          </span>
+        </div>
+        <span class="text text--error"></span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col col--sd-12 col--md-6 padding--small">
+      <div class="input">
+        <div class="row">
+          <div class="col col--sd-12">
+            <label for="dataCollectors" class="label label--title">
+              label title
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col--sd-12">
+            <span class="label label--description">
+              label--description input__info input__info--left
+            </span>
+          </div>
+        </div>
+        <div class="input__info input__info--left">
+          <input class="input__item" placeholder="input__display input__display--left">
+          <span class="input__display input__display--left">
+            <button type="button" class="button--icon input__icon input__icon--right">
+              <svg class="icon icon--small icon--primary" viewBox="0 0 24 24">
+                <g>
+                  <path d="M4.4,5.9l7.6,7.6l7.6-7.6l2.3,2.4L12,18.1L2.1,8.2L4.4,5.9z"></path>
+                </g>
+              </svg>
+            </button>
+          </span>
+        </div>
+        <span class="text text--error"></span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col col--pn-6 padding--small">
+      <div class="input">
+        <div class="row">
+          <div class="col col--pn-12">
+            <label for="input1" class="label label--title">
+              label title
+            </label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col--pn-12">
+            <span class="label label--description">
+              label--description input__info input__info--both
+            </span>
+            <span class="label label--optional">
+              ( label--optional )
+            </span>
+          </div>
+        </div>
+        <div class="input__info input__info--both">
+          <span class="input__display input__display--left">
+            <svg class="icon icon--primary input__icon input__icon--left" viewBox="0 0 24 24">
+              <g>
+                <path
+                  d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M11,16.5L18,9.5L16.59,8.09L11,13.67L7.91,10.59L6.5,12L11,16.5Z">
+                </path>
+              </g>
+            </svg>
+          </span>
+          <input class="input__item" id="input1" name="input1" type="text" value="" />
+          <span class="input__display input__display--right">
+            <svg class="icon icon--primary input__icon input__icon--right" viewBox="0 0 24 24">
+              <g>
+                <path
+                  d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M11,16.5L18,9.5L16.59,8.09L11,13.67L7.91,10.59L6.5,12L11,16.5Z">
+                </path>
+              </g>
+            </svg>
+          </span>
+        </div>
+        <span class="text text--error"></span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col col--pn-3 padding--small">
+      <div class="input ">
+        <div class="input__info input__info--right">
+          <input class="input__item" id="Name" name="Name" type="text" placeholder="teste" />
+          <svg role="img" class="input__icon input__display--right">
+            <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+          </svg>
+        </div>
+        <span class="text text--error">Alerta 3</span>
+      </div>
+    </div>
+    <div class="col col--pn-3 padding--small">
+      <div class="input">
+        <div class="input__info input__info--left">
+          <input class="input__item" id="Name" name="Name" type="text" placeholder="teste" />
+          <svg role="img" class="input__icon input__display--left">
+            <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+          </svg>
+        </div>
+        <span class="text text--error">Alerta 3</span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col col--pn-3 padding--small">
+      <div class="input">
+        <div class="input__info input__info--left">
+          <input class="input__item" id="Name" name="Name" type="text" placeholder="teste" />
+          <label class="input__display input__display--left" for="">R$</label>
+        </div>
+        <span class="text text--error">Alerta 2</span>
+      </div>
+    </div>
+    <div class=" col col--pn-3 padding--small">
+      <div class="input">
+        <div class="input__info input__info--right">
+          <input class="input__item" id="Name" name="Name" type="text" placeholder="teste" />
+          <label class="input__display input__display--right" for="">
+            R$
+          </label>
+        </div>
+        <span class="text text--error">Alerta 7</span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class=" col col--pn-3 padding--small">
+      <div class="input has-error">
+        <label for="" class="label label--title">
+          Numero de matricula
+        </label>
+        <div class="input__info input__info--left">
+          <input class="input__item" id="Name" name="Name" type="text" placeholder="teste" />
+          <svg role="img" class="input__icon input__display--left">
+            <use xlink:href="images/icons/actions-sprite.svg#warning-minus"></use>
+          </svg>
+        </div>
+        <span class="text text--error">Alerta 5</span>
+      </div>
+    </div>
+    <div class=" col col--pn-3 padding--small">
+      <div class="input has-success">
+        <label for="" class="label label--description">Numero de matricula</label>
+        <div class="input__info input__info--right ">
+          <input class="input__item" id="Name" name="Name" type="text" placeholder="teste" />
+          <label class="input__display input__display--right" for="">R$</label>
+        </div>
+        <span class="text text--error">Alerta 6</span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col col--pn-6 padding--small">
+      <div class="input">
+        <label for="" class="label label--title">Text Area</label>
+        <label for="" class="label label--optional">(Opcional)</label>
+        <textarea rows="5" cols="50" class="input__textarea"></textarea>
+        <span class="text text--error">Alerta 1</span>
+        <label for="" class="label label--textarea">(0/100)</label>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <h1 class="title title--primary margin-vertical--large">Info</h1>
+    <div class="col col--pn-4  ">
+      <div class="info">
+        <label for="" class="info__title">Info__title</label>
+        <label for="" class="info__text">info__text</label>
+      </div>
+    </div>
+    <div class="col col--pn-4  ">
+      <div class="info">
+        <label for="" class="info__title">Disponivel para</label>
+        <label for="" class="info__text">Venda</label>
+      </div>
+    </div>
+    <div class="col col--pn-4  ">
+      <div class="info">
+        <label for="" class="info__title">Disponivel para</label>
+        <label for="" class="info__text">Venda</label>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <h1 class="title title--primary margin-vertical--large">Tab</h1>
+    <div class="col--pn-12">
+      <div class="tab">
+        <div class="tab__header">
+          <button class="tab__header-item is-active">
+            <span class="text text--medium text--mobile-hidden">Sobre o imóvel</span>
+          </button>
+          <button class="tab__header-item">
+            <span class="text text--mobile-hidden">Sobre o imóvel</span>
+          </button>
+          <button class="tab__header-item">
+            <span class="text text--mobile-hidden">Sobre o imóvel</span>
+          </button>
+        </div>
+        <div class="tab__container">
+          <div class="tab__container-item">
+            <div class="text text--small">tab-container</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <h1 class="title title--primary margin-vertical--large">Flap</h1>
+    <div class="col--pn-12">
+      <div class="flap">
+        <div class="flap__header"><button type="button" class="flap__header-item is-active">
+            <img src="images/cnpj.png"
+              class="image padding-right--small image--extra-small" />
+            <span class="text text--medium text--primary">Busca avançada</span>
+          </button>
+          <button type="button" class="flap__header-item">
+            <img src="images/cpf.png"
+              class="image padding-right--small image--extra-small" />
+            <span class="text text--small text--primary">Busca por código</span>
+          </button>
+        </div>
+        <div class="flap__container">
+          <div class="flap__container-item">
+            <div class="row">
+              <div class="col col--pn-4 padding--extra-small">
+                <div class="info">
+                  <label for="" class="info__title">Disponivel para</label>
+                  <label for="" class="info__text">Venda</label>
+                </div>
+              </div>
+              <div class="col col--pn-4 padding--extra-small">
+                <div class="info">
+                  <label for="" class="info__title">Disponivel para</label>
+                  <label for="" class="info__text">Venda</label>
+                </div>
+              </div>
+              <div class="col col--pn-4 padding--extra-small">
+                <div class="info">
+                  <label for="" class="info__title">Disponivel para</label>
+                  <label for="" class="info__text">Venda</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <h1 class="title title--primary margin-vertical--large">
+      Progress Indicator
+    </h1>
+    <div class="col--pn-12">
+      <div class="progress-indicator">
+        <div class="progress-indicator__header">
+          <div class="progress-indicator__item is-done">
+            <div class="progress-indicator__numerator">1</div>
+            <span> Dados básicos</span>
+          </div>
+          <div class="progress-indicator__item is-active">
+            <div class="progress-indicator__numerator">2</div>
+            <span> Qual é o imóvel</span>
+          </div>
+          <div class="progress-indicator__item">
+            <div class="progress-indicator__numerator">3</div>
+            <span> Endereço</span>
+          </div>
+          <div class="progress-indicator__item">
+            <div class="progress-indicator__numerator">4</div>
+            <span> Qual é o imóvel</span>
+          </div>
+          <div class="progress-indicator__item">
+            <div class="progress-indicator__numerator">4</div>
+            <span> Qual é o imóvel</span>
+          </div>
+          <div class="progress-indicator__item">
+            <div class="progress-indicator__numerator">4</div>
+            <span> Qual é o imóvel</span>
+          </div>
+        </div>
+        <div class="progress-indicator__container">
+          <div class=" col--pn-12 text text--small">container</div>
+        </div>
+        <div class="progress-indicator__footer">
+          <div class="row">
+            <div class="col col--sd-12 col--pn-6">
+              <button type="button" class="button  button--secondary margin--small">
+                <svg role="img" class="icon margin-right--small icon--extra-small">
+                  <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+                  <span>Voltar</span>
+                </svg>
+              </button>
+            </div>
+            <div class="col col--sd-12 col--pn-6 align--right">
+              <button type="button" class="button  button--secondary margin--small">
+                <svg role="img" class="icon margin-right--small icon--extra-small">
+                  <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+                  <span>Avançar</span>
+                </svg>
+              </button>
+              <button type="button" class="button  button--primary margin--small">
+                <svg role="img" class="icon margin-right--small icon--extra-small">
+                  <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+                  <span>Avançar</span>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <h1 class="title title--primary margin-vertical--large">Crendenciais</h1>
+  </div>
+  <div class="row">
+    <div class="col col--pn-6 padding-bottom--large">
+      <div class="credentials">
+        <div class="credentials__container">
+          <div class="credentials__picture">
+            <img src="images/foto.jpg" alt="" />
+          </div>
+          <div class="credentials__id">
+            <div class="credentials__item text text--medium text--bold">
+              HRITHIK ROSHAN PICULINO DAEMAOKO
+            </div>
+            <div class="credentials__item text text--small">Corretor</div>
+            <div class="credentials__item text text--small">
+              Explend Sistemas
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col--pn-6">
+      <div href="#" class="credentials">
+        <div class="credentials__container">
+          <div class="credentials__picture">
+            <img src="images/foto.jpg" alt="" />
+          </div>
+          <div class="credentials__id">
+            <div class="credentials__item text text--medium text--bold">
+              HRITHIK ROSHAN
+            </div>
+            <div class="credentials__item text text--small">Corretor</div>
+            <div class="credentials__item text text--small">
+              Explend Sistemas
+            </div>
+          </div>
+        </div>
+        <div class="credentials__footer">
+          <a href="#" class="link link--small link--primary ">
+            <svg role="img" class="icon icon--extra-small margin-horizontal--small ">
+              <use xlink:href="images/icons/actions-sprite.svg#launch"></use>
+            </svg>
+            <span>Visualizar</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <h1 class="title title--primary margin-vertical--large">Alerts</h1>
+    <div class="col col--pn-12 ">
+      <div class="col col--pn-12">
+        <div class="alert alert--toast-success alert--position">
+          <svg role="img" class="alert__icon icon--medium">
+            <use xlink:href="images/icons/actions-sprite.svg#success-circle"></use>
+          </svg>
+          <div class="alert__message">
+            <label class="alert__title">Alteração dos dados basicos</label>
+            <span class="alert__description">Os dados foram salvos com sucesso</span>
+          </div>
+          <button type="button" class="button button--icon">
+            <svg role="img" class="icon icon--small icon--inverted">
+              <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col col--pn-6 padding--small  ">
+      <h4 class="title title--primary title--extra-small">globais</h4>
+      <div class="col--pn-12 padding--small ">
+        <div class="alert alert--global-error">
+          <svg role="img" class="alert__icon icon--large">
+            <use xlink:href="images/icons/actions-sprite.svg#error-octagon"></use>
+          </svg>
+          <div class="alert__message">
+            <label class="alert__title">Alteração dos dados basicos</label>
+            <span class="alert__description">Os dados foram salvos com sucesso</span>
+          </div>
+          <button type="button" class="button button--icon">
+            <svg role="img" class="icon icon--small icon--primary">
+              <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="col--pn-12 padding--small ">
+        <div class="alert alert--global-warning">
+          <svg role="img" class="alert__icon icon--large">
+            <use xlink:href="images/icons/actions-sprite.svg#warning-triangle"></use>
+          </svg>
+          <div class="alert__message">
+            <label class="alert__title">Alteração dos dados basicos</label>
+            <span class="alert__description">Os dados foram salvos com sucesso</span>
+          </div>
+          <button type="button" class="button button--icon">
+            <svg role="img" class="icon icon--small icon--primary">
+              <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="col--pn-12 padding--small ">
+        <div class="alert alert--global-success">
+          <svg role="img" class="alert__icon icon--large">
+            <use xlink:href="images/icons/actions-sprite.svg#success-circle"></use>
+          </svg>
+          <div class="alert__message">
+            <label class="alert__title">Alteração dos dados basicos</label>
+            <span class="alert__description">Os dados foram salvos com sucesso</span>
+          </div>
+          <button type="button" class="button button--icon">
+            <svg role="img" class="icon icon--small icon--primary">
+              <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="col--pn-12 padding--small ">
+        <div class="alert alert--global-info">
+          <svg role="img" class="alert__icon icon--large">
+            <use xlink:href="images/icons/actions-sprite.svg#warning-minus"></use>
+          </svg>
+          <div class="alert__message">
+            <label class="alert__title">Alteração dos dados basicos</label>
+            <span class="alert__description">Os dados foram salvos com sucesso</span>
+          </div>
+          <button type="button" class="button button--icon">
+            <svg role="img" class="icon icon--small icon--primary">
+              <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col col--pn-6 padding-horizontal--small  ">
+      <h4 class="title title--primary title--extra-small">locais</h4>
+      <div class="col--pn-12 padding--small ">
+        <div class="alert alert--local-error ">
+          <svg role="img" class="alert__icon icon--large">
+            <use xlink:href="images/icons/actions-sprite.svg#error-octagon"></use>
+          </svg>
+          <div class="alert__message">
+            <label class="alert__title">Alteração dos dados basicos</label>
+            <span class="alert__description">Os dados foram salvos com sucesso</span>
+          </div>
+          <button type="button" class="button button--icon">
+            <svg role="img" class="icon icon--small icon--primary">
+              <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="col--pn-12 padding--small ">
+        <div class="alert alert--local-warning">
+          <svg role="img" class="alert__icon icon--large">
+            <use xlink:href="images/icons/actions-sprite.svg#warning-triangle"></use>
+          </svg>
+          <div class="alert__message">
+            <label class="alert__title">Alteração dos dados basicos</label>
+            <span class="alert__description">Os dados foram salvos com sucesso</span>
+          </div>
+          <button type="button" class="button button--icon">
+            <svg role="img" class="icon icon--small icon--primary">
+              <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="col--pn-12 padding--small ">
+        <div class="alert alert--local-success">
+          <svg role="img" class="alert__icon icon--large">
+            <use xlink:href="images/icons/actions-sprite.svg#success-circle"></use>
+          </svg>
+          <div class="alert__message">
+            <label class="alert__title">Alteração dos dados basicos</label>
+            <span class="alert__description">Os dados foram salvos com sucesso</span>
+          </div>
+          <button type="button" class="button button--icon">
+            <svg role="img" class="icon icon--small icon--primary">
+              <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="col--pn-12 padding--small ">
+        <div class="alert alert--local-info">
+          <svg role="img" class="alert__icon icon--large">
+            <use xlink:href="images/icons/actions-sprite.svg#warning-minus"></use>
+          </svg>
+          <div class="alert__message">
+            <label class="alert__title">Alteração dos dados basicos</label>
+            <span class="alert__description">Os dados foram salvos com sucesso</span>
+          </div>
+          <button type="button" class="button button--icon">
+            <svg role="img" class="icon icon--small icon--primary">
+              <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <h1 class="title title--primary margin-vertical--large">Breadcrumb</h1>
+    <section class="breadcrumb">
+      <ul class="breadcrumb__box">
+        <li>
+          <a href="#"> <span>Home</span> </a>
+        </li>
+        <li class="is-active"><span>Dados do imóvel</span></li>
+      </ul>
+    </section>
+  </div>
+  <div class="row">
+    <h1 class="title title--primary margin-vertical--large">Page Header</h1>
+    <div class="page-header">
+      <h1 class="title title--primary title--small">Imóveis</h1>
+      <div class="text text--medium">Dados do Imóveis</div>
+      <section class="breadcrumb">
+        <ul class="breadcrumb__box">
+          <li>
+            <a href="#"> <span>Home</span> </a>
+          </li>
+          <li class="is-active"><span>Dados do imóvel</span></li>
+        </ul>
+      </section>
+    </div>
+  </div>
+  <div class="row">
+    <h1 class="title title--primary margin-vertical--large">Identifier</h1>
+    <div class="identifier">
+      <div class="identifier__item">
+        <label class="identifier__title">Codigo</label>
+        <span class="identifier__description">AP9056554</span>
+      </div>
+      <div class="identifier__item">
+        <label class="identifier__title">Valor</label>
+        <span class="identifier__description">R$ 1.000.000,00</span>
+      </div>
+      <div class="identifier__item">
+        <label class="identifier__title">Disponivel para</label>
+        <span class="identifier__description">Venda, Aluguel</span>
+      </div>
+      <div class="identifier__item">
+        <label class="identifier__title">Tipo</label>
+        <span class="identifier__description">Apartamento</span>
+      </div>
+      <div class="identifier__item">
+        <label class="identifier__title">Status do Cadastro</label>
+        <span class="identifier__description">Pode Melhorar</span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <h1 class="title title--primary margin-vertical--large">
+      Title
+    </h1>
+    <div class="title title--primary title--extra-small margin-vertical--large">
+      Titulo extra-smal
+    </div>
+    <div class="title title--primary title--small">Titulo small</div>
+    <div class="title title--primary title--medium margin-vertical--large">
+      Titulo normal
+    </div>
+    <div class="title title--primary title--large">Titulo big</div>
+    <div class="title title--primary title--extra-large margin-vertical--large">
+      Titulo extra big
+    </div>
+    <div class="title title--primary title--large title--center">
+      Titulo centralizado
+    </div>
+    <div class="title title--primary title--large title--right">
+      Titulo a direita
+    </div>
+    <div class="title title--primary title--large title--primary">
+      Titulo primary
+    </div>
+    <div class="title title--primary title--large title--secondary">
+      Titulo secondary
+    </div>
+    <div class="title title--primary title--large title--tertiary">
+      Titulo tertiary
+    </div>
+    <div class="title title--primary title--large title--inverted">
+      Titulo inverted
+    </div>
+  </div>
+  <div class="row">
+    <h1 class="title title--primary margin-vertical--large">
+      Text
+    </h1>
+  </div>
+  <div class="row margin-vertical--large">
+    <div class="col col--pn-2  ">
+      <div class="text text--extra-small">Texto extra-small</div>
+    </div>
+    <div class="col col--pn-2  ">
+      <div class="text text--small">Texto small</div>
+    </div>
+    <div class="col col--pn-2  ">
+      <div class="text text--medium">Texto normal</div>
+    </div>
+    <div class="col col--pn-2  ">
+      <div class="text text--large">Texto big</div>
+    </div>
+    <div class="col col--pn-2  ">
+      <div class="text text--extra-large">Texto extra-big</div>
+    </div>
+    <div class="col col--pn-2  ">
+      <div class="text text--extra-large text--bold">Texto negrito</div>
+    </div>
+  </div>
+  <div class="row margin-vertical--large">
+    <div class="col col--pn-6  ">
+      <div class="text text--extra-large text--full text--center">
+        Texto full centralizado
+      </div>
+    </div>
+    <div class="col col--pn-6  ">
+      <div class="text text--extra-large text--full text--right">
+        Texto full a direita
+      </div>
+    </div>
+  </div>
+  <div class="row margin-vertical--large">
+    <div class="col col--pn-3  ">
+      <div class="text text--extra-large text--primary">Texto primary</div>
+    </div>
+    <div class="col col--pn-3  ">
+      <div class="text text--extra-large text--secondary">
+        Texto secondary
+      </div>
+    </div>
+    <div class="col col--pn-3  ">
+      <div class="text text--extra-large text--tertiary">Texto tertiary</div>
+    </div>
+    <div class="col col--pn-3  ">
+      <div class="text text--extra-large text--inverted">Texto inverted</div>
+    </div>
+  </div>
+  <div class="row">
+    <h1 class="title title--primary margin-vertical--large">Icones</h1>
+  </div>
+  <div class="row">
+    <div class="col col--pn-2">
+      <svg role="img" class="icon icon--extra-small">
+        <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+      </svg>
+      <div class="col col--pn-12">
+        <div class="text text--small">icone extra-small</div>
+      </div>
+    </div>
+    <div class="col col--pn-2">
+      <svg role="img" class="icon icon--small">
+        <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+      </svg>
+      <div class="col col--pn-12">
+        <div class="text text--small">Icone small</div>
+      </div>
+    </div>
+    <div class="col col--pn-2">
+      <svg role="img" class="icon icon--medium">
+        <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+      </svg>
+      <div class="col col--pn-12">
+        <div class="text text--small">Icone medium</div>
+      </div>
+    </div>
+    <div class="col col--pn-2">
+      <svg role="img" class="icon icon--large">
+        <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+      </svg>
+      <div class="col col--pn-12">
+        <div class="text text--small">Icone large</div>
+      </div>
+    </div>
+    <div class="col col--pn-2">
+      <svg role="img" class="icon icon--extra-large">
+        <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+      </svg>
+      <div class="col col--pn-12">
+        <div class="text text--small">Icone extra-large</div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col col--pn-2">
+      <svg role="img" class="icon icon--extra-large icon--primary">
+        <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+      </svg>
+      <div class="col col--pn-12">
+        <div class="text text--small">icone primary</div>
+      </div>
+    </div>
+    <div class="col col--pn-2">
+      <svg role="img" class="icon icon--extra-large icon--secondary">
+        <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+      </svg>
+      <div class="col col--pn-12">
+        <div class="text text--small">icone secondary</div>
+      </div>
+    </div>
+    <div class="col col--pn-2">
+      <svg role="img" class="icon icon--extra-large icon--tertiary">
+        <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+      </svg>
+      <div class="col col--pn-12">
+        <div class="text text--small">icone tertiary</div>
+      </div>
+    </div>
+    <div class="col col--pn-2">
+      <svg role="img" class="icon icon--extra-large icon--inverted">
+        <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+      </svg>
+      <div class="col col--pn-12">
+        <div class="text text--small">icone inverted</div>
+      </div>
+    </div>
+  </div>
+  <div class="row margin-vertical--large">
+    <div class="col col--pn-2">
+      <svg role="img" class="icon icon--extra-large margin-right--small">
+        <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+      </svg>
+      <div class="col col--pn-12">
+        <div class="text text--small">icone left (margin a direita)</div>
+      </div>
+    </div>
+    <div class="col col--pn-2">
+      <svg role="img" class="icon icon--extra-large margin-left--small">
+        <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+      </svg>
+      <div class="col col--pn-12">
+        <div class="text text--small">icone right (margin a esqueda)</div>
+      </div>
+    </div>
+    <div class="col col--pn-2">
+      <svg role="img" class="icon icon--extra-large margin-horizontal--small">
+        <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+      </svg>
+      <div class="col col--pn-12">
+        <div class="text text--small">icone center (margin nas laterais)</div>
+      </div>
+    </div>
+    <div class="col col--pn-2">
+      <svg role="img" class="icon icon--medium margin-horizontal--small">
+        <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+      </svg>
+      <div class="text text--medium text--bold text--mobile-hidden">
+        texto
+      </div>
+      <div class="col col--pn-12">
+        <div class="text text--small">icone com texto</div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <h1 class="title title--primary margin-vertical--large">Links</h1>
+  </div>
+  <div class="row">
+    <div class="col col--pn-2">
+      <a href="" class="link link--large link--primary ">
+        <span>Link primary</span>
+      </a>
+    </div>
+    <div class="col col--pn-2">
+      <a href="" class="link link--large link--secondary ">
+        <span>Link secondary</span>
+      </a>
+    </div>
+    <div class="col col--pn-2">
+      <a href="" class="link link--large link--tertiary ">
+        <span>Link tertiary</span>
+      </a>
+    </div>
+    <div class="col col--pn-2">
+      <a href="" class="link link--large link--inverted">
+        <span>Link inverted</span>
+      </a>
+    </div>
+  </div>
+  <div class="row margin-vertical--large">
+    <div class="col col--pn-2">
+      <a href="" class="link link--primary link--extra-small ">
+        <span>Link extra small</span>
+      </a>
+    </div>
+    <div class="col col--pn-2">
+      <a href="" class="link link--primary link--small ">
+        <span>Link small</span>
+      </a>
+    </div>
+    <div class="col col--pn-2">
+      <a href="" class="link link--primary link--medium ">
+        <span>Link medium</span>
+      </a>
+    </div>
+    <div class="col col--pn-2">
+      <a href="" class="link link--primary link--large ">
+        <span>Link large</span>
+      </a>
+    </div>
+    <div class="col col--pn-2">
+      <a href="" class="link link--primary link--extra-large ">
+        <span>Link extra-large</span>
+      </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col col--pn-6">
+      <a href="" class="link link--secondary link--large link--center ">
+        <span>Link center</span>
+      </a>
+    </div>
+    <div class="col col--pn-6">
+      <a href="" class="link link--tertiary link--large link--right ">
+        <span>Link right</span>
+      </a>
+    </div>
+  </div>
+  <div class="row margin-vertical--large">
+    <div class="col col--pn-2">
+      <a href="#" class="link-button link-button--primary">
+        link button primary
+      </a>
+    </div>
+    <div class="col col--pn-2">
+      <a href="" class="link-button link-button--secondary">
+        link button secondary
+      </a>
+    </div>
+    <div class="col col--pn-2">
+      <a href="" class="link-button link-button--tertiary">
+        link button tertiary
+      </a>
+    </div>
+  </div>
+  <div class="row margin-vertical--large">
+    <div class="col col--pn-2">
+      <a href="#" class="link-button link- link-button--primary">
+        <span>link button icone</span>
+        <svg role="img" class="icon margin-left--small icon--extra-small">
+          <use xlink:href="images/icons/actions-sprite.svg#chevron-right"></use>
+        </svg>
+      </a>
+    </div>
+    <div class="col col--pn-2">
+      <a href="#" class="link-button link- link-button--secondary">
+        <svg role="img" class="icon margin-right--small icon--extra-small">
+          <use xlink:href="images/icons/actions-sprite.svg#chevron-left"></use>
+        </svg>
+        <span>link button icone</span>
+      </a>
+    </div>
+    <div class="col col--pn-2">
+      <a href="#" class="link-button link- link-button--tertiary">
+        <svg role="img" class="icon margin-right--small icon--extra-small">
+          <use xlink:href="images/icons/actions-sprite.svg#chevron-left"></use>
+        </svg>
+        <span>link button icone</span>
+      </a>
+    </div>
+  </div>
+  <div class="row margin-vertical--large">
+    <h1 class="title title--primary margin-vertical--large">Box</h1>
+    <div class="box box--shadow">
+      <div class="box__container">
+        <div class="tab__header">
+          <button class="tab__header-item is-active">
+            <svg role="img" class="icon icon--tab icon--extra-small">
+              <use xlink:href="images/icons/actions-sprite.svg#warning-minus"></use>
+            </svg>
+            <span class="text text--medium">Sobre o imóvel</span>
+          </button>
+          <button class="tab__header-item">
+            <svg role="img" class="icon icon--tab icon--extra-small">
+              <use xlink:href="images/icons/actions-sprite.svg#warning-minus"></use>
+            </svg>
+            <span class="text">Sobre o imóvel</span>
+          </button>
+          <button class="tab__header-item">
+            <svg role="img" class="icon icon--tab icon--extra-small">
+              <use xlink:href="images/icons/actions-sprite.svg#warning-minus"></use>
+            </svg>
+            <span>Sobre o imóvel</span>
+          </button>
+        </div>
+        <div class="tab__container is-active">
+          <div class="col col--pn-12">
+            <div class="alert alert--local-success">
+              <svg role="img" class="alert__icon" style="width: 24px; height: 24px;">
+                <use xlink:href="images/icons/actions-sprite.svg#warning-minus"></use>
+              </svg>
+              <div class="alert__message">
+                <label class="alert__title">Alteração dos dados basicos</label>
+                <span class="alert__description">Os dados foram salvos com sucesso</span>
+              </div>
+              <button type="button" class="button button--icon">
+                <svg role="img" class="icon icon--small icon--inverted">
+                  <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="col col--pn-4  ">
+              <div class="info">
+                <label for="" class="info__title">Disponivel para</label>
+                <label for="" class="info__text">Venda</label>
+              </div>
+            </div>
+            <div class="col col--pn-4   ">
+              <div class="info">
+                <label for="" class="info__title">Disponivel para</label>
+                <label for="" class="info__text">Venda</label>
+              </div>
+            </div>
+            <div class="col col--pn-4  ">
+              <div class="info">
+                <label for="" class="info__title">Disponivel para</label>
+                <label for="" class="info__text">Venda</label>
+              </div>
+            </div>
+            <div class="col col--pn-6  ">
+              <div class="info">
+                <label for="" class="info__title">Disponivel para</label>
+                <label for="" class="info__text">Venda</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box__footer">
+        <div class="box__items">
+          <button type="button" class="button  button--primary">
+            <svg role="img" class="icon margin-right--small icon--extra-small">
+              <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+              <span>Button</span>
+            </svg>
+          </button>
+        </div>
+        <div class="box__items">
+          <button type="button" class="button  button--secondary margin-horizontal--medium">
+            <svg role="img" class="icon margin-right--small icon--extra-small">
+              <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+              <span>Button</span>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row margin-vertical--large">
+    <h1 class="title title--primary">
+      Toggle
+    </h1>
+  </div>
+  <div class="row">
+    <div class="col col--sd-12 col--md-3 padding--small">
+      <div class="toggle">
+        <span class="label label--title">
+          Imovel ativo?
+        </span>
+        <div class="toggle__box">
+          <button type="button" class="toggle__item is-active">
+            Sim
+          </button>
+          <button type="button" class="toggle__item">
+            Não
+          </button>
+        </div>
+        <span class="text text--error"></span>
+      </div>
+    </div>
+  </div>
+  <div class="row margin-vertical--large">
+    <h1 class="title title--primary">
+      Toggle group
+    </h1>
+  </div>
+  <div class="row">
+    <div class="col col--sd-6 padding--small">
+      <div class="toggle-group">
+        <div class="col col--sd-12">
+          <div class="row">
+            <div class="col col--sd-12">
+              <label for="" class="label label--title">
+                Disponivel para
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col col--sd-12">
+              <label for="" class="label label--description">
+                Matricula na prefeitura
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="col col--sd-12">
+          <div class="toggle-group__box">
+            <button class="toggle-group__item is-active margin-horizontal--extra-small">Residencial</button>
+            <button class="toggle-group__item margin-horizontal--extra-small">Comercial</button>
+            <button class="toggle-group__item margin-horizontal--extra-small">Rural</button>
+            <button class="toggle-group__item margin-horizontal--extra-small">Industrial</button>
+          </div>
+        </div>
+        <span class="text text--error"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <h1 class="title title--primary">Combobox</h1>
+    <div class="col col--pn-12 col--md-4 padding-horizontal--small align--bottom">
+      <div class="input">
+        <div class="row">
+          <div class="col col--pn-12">
+            <label for="" class="label label--title">Numero de matricula</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col--pn-12">
+            <label for="" class="info__title">Matricula na prefeitura</label>
+            <label for="" class="label label--optional">(Opcional)</label>
+          </div>
+        </div>
+        <div class="input__info input__info--right">
+          <input class="input__item" id="Name" name="Name" type="text" placeholder="teste" />
+          <svg role="img" class="icon icon--primary input__icon input__display--right">
+            <use xlink:href="images/icons/actions-sprite.svg#search"></use>
+          </svg>
+        </div>
+        <div class="combobox">
+          <ul class="combobox__container is-active">
+            <li class="combobox__item">
+              <div class="text text--small margin-vertical--extra-small">
+                <span class="text text--bold"> Nome: </span>
+                João da Silva
+              </div>
+              <div class="text text--small margin-vertical--extra-small">
+                <span class="text text--bold"> CPF: </span>
+                000.000.000-00
+              </div>
+            </li>
+            <li class="combobox__item">
+              <div class="text text--small margin-vertical--extra-small">
+                <span class="text text--bold"> Nome: </span>
+                João da Silva
+              </div>
+              <div class="text text--small margin-vertical--extra-small">
+                <span class="text text--bold"> CPF: </span>
+                000.000.000-00
+              </div>
+            </li>
+            <li class="combobox__item">
+              <div class="text text--small margin-vertical--extra-small">
+                <span class="text text--bold"> Nome: </span>
+                João da Silva
+              </div>
+              <div class="text text--small margin-vertical--extra-small">
+                <span class="text text--bold"> CPF: </span>
+                000.000.000-00
+              </div>
+            </li>
+          </ul>
+        </div>
+        <span class="text text--error">Alerta combobox</span>
+      </div>
+    </div>
+    <div class="col col--pn-12 col--md-4  padding-horizontal--small align--bottom">
+      <div class="input">
+        <input class="input__item" id="Name" name="Name" type="text" placeholder="teste" />
+        <div class="combobox">
+          <ul class="combobox__container is-active">
+            <li class="combobox__item">
+              <div class="text text--small margin-vertical--extra-small">
+                <span class="text text--bold"> Nome: </span> João da Silva
+              </div>
+              <div class="text text--small margin-vertical--extra-small">
+                <span class="text text--bold"> CPF: </span> 000.000.000-00
+              </div>
+            </li>
+            <li class="combobox__item">
+              <div class="text text--small margin-vertical--extra-small">
+                <span class="text text--bold"> Nome: </span> João da Silva
+              </div>
+              <div class="text text--small margin-vertical--extra-small">
+                <span class="text text--bold"> CPF: </span> 000.000.000-00
+              </div>
+            </li>
+            <li class="combobox__item">
+              <div class="text text--small margin-vertical--extra-small">
+                <span class="text text--bold"> Nome: </span> João da Silva
+              </div>
+              <div class="text text--small margin-vertical--extra-small">
+                <span class="text text--bold"> CPF: </span> 000.000.000-00
+              </div>
+            </li>
+          </ul>
+        </div>
+        <span class="text text--error">Alerta 1</span>
+      </div>
+    </div>
+    <div class=" col col--pn-4 padding-horizontal--small  align--bottom">
+      <div class="input ">
+        <div class="input__info input__info--both">
+          <input class="input__item" id="Name" name="Name" type="text" placeholder="teste" />
+          <label class="input__display input__display--left" for="">R$</label>
+          <button type="button" class="button--icon input__icon input__display--right">
+            <svg role="img" class="icon icon--medium icon--primary ">
+              <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="combobox">
+          <ul class="combobox__container is-active">
+            <li class="combobox__item">
+              <div class="text text--small margin-vertical--extra-small">
+                <span class="text text--bold"> Nome: </span> João da Silva
+              </div>
+              <div class="text text--small margin-vertical--extra-small">
+                <span class="text text--bold"> CPF: </span> 000.000.000-00
+              </div>
+            </li>
+            <li class="combobox__item">
+              <div class="text text--small margin-vertical--extra-small">
+                <span class="text text--bold"> Nome: </span> João da Silva
+              </div>
+              <div class="text text--small margin-vertical--extra-small">
+                <span class="text text--bold"> CPF: </span> 000.000.000-00
+              </div>
+            </li>
+            <li class="combobox__item">
+              <div class="text text--small margin-vertical--extra-small">
+                <span class="text text--bold"> Nome: </span> João da Silva
+              </div>
+              <div class="text text--small margin-vertical--extra-small">
+                <span class="text text--bold"> CPF: </span> 000.000.000-00
+              </div>
+            </li>
+          </ul>
+        </div>
+        <span class="text text--error">Alerta 2</span>
+      </div>
+    </div>
+    <div class="col col--pn-12" style="height: 150px"></div>
+  </div>
+
+  <div class="row">
+    <h1 class="title title--primary margin-vertical--large">pill</h1>
+    <div class="col col--pn-6">
+      <div class="input">
+        <label for="Status" class="label label--title">Status</label><span
+          class="label label--description">Descrição</span>
+        <div class="input__info input__info--both">
+          <span class="input__display input__display--left"><svg
+              class="icon input__icon input__icon--left icon--primary" viewBox="0 0 24 24">
+              <g>
+                <path d="M12.9,14.3h-1.8v-3.6h1.8 M12.9,17.9h-1.8v-1.8h1.8 M2.1,20.6h19.8L12,3.4L2.1,20.6z"></path>
+              </g>
+            </svg></span><input class="input__item" id="Status" name="Status" type="text" placeholder="Selecione.."
+            aria-controls="ex3-listbox" autocomplete="nope" value="" /><span
+            class="input__display input__display--right"><button type="button"
+              class="button--icon input__icon input__icon--right">
+              <svg class="icon icon--small icon--primary" viewBox="0 0 24 24">
+                <g>
+                  <path d="M4.4,5.9l7.6,7.6l7.6-7.6l2.3,2.4L12,18.1L2.1,8.2L4.4,5.9z"></path>
+                </g>
+              </svg></button></span>
+        </div>
+        <div class="combobox" role="combobox" aria-expanded="false" aria-controls="ex3-listbox"></div>
+        <div class="pill">
+          <button type="button" class="pill__item">
+            <div class="text text--small text--primary">
+              Minha casa minha vida
+            </div>
+            <svg role="img" class="icon margin-left--small icon--small">
+              <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+            </svg>
+          </button>
+          <button type="button" class="pill__item">
+            <div class="text text--small text--primary">Minha vida</div>
+            <svg role="img" class="icon margin-left--small icon--small">
+              <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+            </svg>
+          </button>
+          <button type="button" class="pill__item">
+            <div class="text text--small text--primary">Avocado</div>
+            <svg role="img" class="icon margin-left--small icon--small">
+              <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+            </svg>
+          </button>
+          <button type="button" class="pill__item">
+            <div class="text text--small text--primary">Abacate</div>
+            <svg role="img" class="icon margin-left--small icon--small">
+              <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+            </svg>
+          </button>
+          <button type="button" class="pill__item">
+            <div class="text text--small text--primary">Guaca mole</div>
+            <svg role="img" class="icon margin-left--small icon--small">
+              <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+            </svg>
+          </button>
+          <button type="button" class="pill__item">
+            <div class="text text--small text--primary">
+              Minha casa minha vida
+            </div>
+            <svg role="img" class="icon margin-left--small icon--small">
+              <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+            </svg>
+          </button>
+        </div>
+        <span class="text text--error"></span>
+      </div>
+    </div>
+  </div>
+  <div class="row ">
+    <h1 class="title title--primary margin-vertical--large">Card imoveis</h1>
+    <div class="col col--pn-6">
+      <div class="card-imoveis">
+        <div class="box">
+          <div class="box__container">
+            <div class="col col--pn-5">
+              <img src="images/imovel.jpg" alt="" class="image image--medium" style="background-color: gray;" />
+              <div class="col col--pn-12 align--center ">
+                <svg role="img" class="icon icon--small  icon--primary margin--small">
+                  <use xlink:href="images/icons/actions-sprite.svg#expand"></use>
+                </svg>
+                <svg role="img" class="icon icon--small  icon--primary margin--small">
+                  <use xlink:href="images/icons/actions-sprite.svg#rotate"></use>
+                </svg>
+                <svg role="img" class="icon icon--small icon--primary margin--small">
+                  <use xlink:href="images/icons/actions-sprite.svg#launch"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="col col--pn-7 padding-left--medium">
+              <div class="col col--pn-12">
+                <label for="" class="label label--title">Numero de matricula</label>
+                <label for="" class="label label--optional">(Opcional)</label>
+                <div class="input">
+                  <textarea rows="4" cols="50" class="input__textarea"></textarea>
+                  <span class="text text--error">Alerta 1</span>
+                  <label for="" class="label label--textarea">(0/100)</label>
+                </div>
+              </div>
+              <div class="col col--pn-6 padding-right--small">
+                <div class="toggle-group">
+                  <label for="" class="label label--title">Foto Principal</label>
+                  <div class="toggle-group__box">
+                    <button class="toggle-group__item">Sim</button>
+                  </div>
+                  <span class="text text--error">Alerta 1</span>
+                </div>
+              </div>
+              <div class="col col--pn-6 padding-left--small">
+                <div class="toggle-group">
+                  <label for="" class="label label--title">Visivel</label>
+                  <div class="toggle-group__box">
+                    <button class="toggle-group__item">Sim</button>
+                  </div>
+                  <span class="text text--error">Alerta 1</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box__footer">
+          <button type="button" class="button  button--primary">
+            <svg role="img" class="icon margin-left--small icon--extra-small">
+              <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+            </svg>
+            <span>Excluir</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <h1 class="title title--primary margin-vertical--large">
+      Upload drag and drop
+    </h1>
+    <div class="col col--pn-12">
+      <div class="drag-upload">
+        <div class="drag-upload__container is-dragover">
+          <input type="file" id="file" name="file" class="drag-upload__input"
+            data-multiple-caption="{count} files selected" multiple="" />
+          <label for="file" class="drag-upload__label margin-vertical--large">
+            <div class="text text--extra-large text--bold text--primary">
+              Para adicionar, clique ou arraste as fotos aqui
+            </div>
+          </label>
+          <button type="submit" class="drag-upload__button">Upload</button>
+        </div>
+        <span class="text text--error">Alerta 1</span>
+      </div>
+    </div>
+    <div class="box">
+      <div class="col col--pn-12 box__container">
+        <div class="row">
+          <div class="col col--pn-12 margin-vertical--small">
+            <span class="text text--large text--left text--bold text--primary">Arquivos inválidos</span>
+          </div>
+          <div class="col col--pn-12">
+            <span class="text text--medium text--left text--primary">Formatos suportados image/jpeg, image/png</span>
+          </div>
+          <div class="col col--pn-12">
+            <span class="text text--medium text--left text--primary">Tamanho permitido entre 0 bytes e5.0 MB</span>
+          </div>
+          <div class="col col--pn-12">
+            <ul class="drag-upload__info">
+              <li class="drag-upload__item">
+                <span class="text text--medium text--left text--primary">montserrat-v12-latin.zip -
+                </span>
+                <span class="text text--medium text--left text--bold text--primary">527.5 KB</span>
+              </li>
+              <li class="drag-upload__item">
+                <span class="text text--medium text--left text--primary">Bia.pdf -
+                </span>
+                <span class="text text--medium text--left text--bold text--primary">63.5 KB</span>
+              </li>
+              <li class="drag-upload__item">
+                <span class="text text--medium text--left text--primary">Elias - Copia.pdf -
+                </span>
+                <span class="text text--medium text--left text--bold text--primary">81.4 KB</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col col--pn-12 box__footer">
+        <button type="button" class="button button--primary ">
+          <svg class="icon icon--extra-small icon--primary margin-right--small" stroke="currentColor"
+            viewBox="0 0 24 24">
+            <g>
+              <path
+                d="M12,2C17.53,2 22,6.47 22,12C22,17.53 17.53,22 12,22C6.47,22 2,17.53 2,12C2,6.47 6.47,2 12,2M15.59,7L12,10.59L8.41,7L7,8.41L10.59,12L7,15.59L8.41,17L12,13.41L15.59,17L17,15.59L13.41,12L17,8.41L15.59,7Z">
+              </path>
+            </g>
+          </svg>
+          <span>Remover todos</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <h1 class="title title--primary margin-vertical--large">Status panel</h1>
+    <div class="status-panel">
+      <div class="status-panel__icon"></div>
+      <div class="status-panel__display">
+        <div class="text text--small text--primary">
+          Como está seu cadastro
+        </div>
+        <h2 class="title title--small title--primary">Apenas começando</h2>
+        <div class="text text--small text--primary">
+          Siga as proximas etapas!
+        </div>
+      </div>
+      <div class="status-panel__link">
+        <a href="" class="link link--medium link--primary ">
+          <svg role="img" class="icon margin-horizontal--small icon--extra-small">
+            <use xlink:href="images/icons/actions-sprite.svg#launch"></use>
+          </svg>
+          <span>Saiba mais</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <h1 class="title title--primary margin-vertical--large">Pagination</h1>
+    <div class="pagination">
+      <button type="button" class="pagination__item is-disabled" disabled>
+        <svg role="img" class="icon margin-right--small icon--extra-small">
+          <use xlink:href="images/icons/actions-sprite.svg#chevron-left"></use>
+        </svg>
+        <span>Anterior</span>
+      </button>
+      <button type="button" class="pagination__item"><span>1</span></button>
+      <button type="button" class="pagination__item"><span>2</span></button>
+      <button type="button" class="pagination__item"><span>3</span></button>
+      <button type="button" class="pagination__item is-active">
+        <span>Próximo</span>
+        <svg role="img" class="icon margin-left--small icon--extra-small">
+          <use xlink:href="images/icons/actions-sprite.svg#chevron-right"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div class="row">
+    <h1 class="title title--primary margin-vertical--large">Margem</h1>
+    <div class="col col--md-12 align--center margin-bottom--large" style="border: 1px solid gray;">
+      <div class="text text--inverted margin--extra-small" style="background-color: gray;">
+        margin--extra-small
+      </div>
+      <div class="text text--inverted margin--small" style="background-color: gray;">
+        margin--small
+      </div>
+      <div class="text text--inverted margin--medium" style="background-color: gray;">
+        margin--medium
+      </div>
+      <div class="text text--inverted margin--large" style="background-color: gray;">
+        margin--large
+      </div>
+      <div class="text text--inverted margin--extra-large" style="background-color: gray;">
+        margin--extra-large
+      </div>
+    </div>
+    <h2 class="title title--primary margin-vertical--large">
+      Margem vertical
+    </h2>
+    <div class="col col--md-12 align--center margin-bottom--large" style="border: 1px solid gray;">
+      <div class="text text--inverted margin-vertical--extra-small" style="background-color: gray;">
+        margin-vertical--extra-small
+      </div>
+      <div class="text text--inverted margin-vertical--small" style="background-color: gray;">
+        margin-vertical--small
+      </div>
+      <div class="text text--inverted margin-vertical--medium" style="background-color: gray;">
+        margin-vertical--medium
+      </div>
+      <div class="text text--inverted margin-vertical--large" style="background-color: gray;">
+        margin-vertical--large
+      </div>
+      <div class="text text--inverted margin-vertical--extra-large" style="background-color: gray;">
+        margin-vertical--extra-large
+      </div>
+    </div>
+    <h2 class="title title--primary margin-vertical--large">
+      Margem horizontal
+    </h2>
+    <div class="col col--md-12 align--center margin-bottom--large" style="border: 1px solid gray;">
+      <div class="text text--inverted margin-horizontal--extra-small" style="background-color: gray;">
+        margin-horizontal--extra-small
+      </div>
+      <div class="text text--inverted margin-horizontal--small" style="background-color: gray;">
+        margin-horizontal--small
+      </div>
+      <div class="text text--inverted margin-horizontal--medium" style="background-color: gray;">
+        margin-horizontal--medium
+      </div>
+      <div class="text text--inverted margin-horizontal--large" style="background-color: gray;">
+        margin-horizontal--large
+      </div>
+      <div class="text text--inverted margin-horizontal--extra-large" style="background-color: gray;">
+        margin-horizontal--extra-large
+      </div>
+    </div>
+    <h2 class="title title--primary margin-vertical--large">
+      Margem esquerda
+    </h2>
+    <div class="col col--md-12 align--center margin-bottom--large" style="border: 1px solid gray;">
+      <div class="text text--inverted margin-left--extra-small" style="background-color: gray;">
+        margin-left--extra-small
+      </div>
+      <div class="text text--inverted margin-left--small" style="background-color: gray;">
+        margin-left--small
+      </div>
+      <div class="text text--inverted margin-left--medium" style="background-color: gray;">
+        margin-left--medium
+      </div>
+      <div class="text text--inverted margin-left--large" style="background-color: gray;">
+        margin-left--large
+      </div>
+      <div class="text text--inverted margin-left--extra-large" style="background-color: gray;">
+        margin-left--extra-large
+      </div>
+    </div>
+    <h2 class="title title--primary margin-vertical--large">
+      Margem direita
+    </h2>
+    <div class="col col--md-12 align--center margin-bottom--large" style="border: 1px solid gray;">
+      <div class="text text--inverted margin-right--extra-small" style="background-color: gray;">
+        margin-right--extra-small
+      </div>
+      <div class="text text--inverted margin-right--small" style="background-color: gray;">
+        margin-right--small
+      </div>
+      <div class="text text--inverted margin-right--medium" style="background-color: gray;">
+        margin-right--medium
+      </div>
+      <div class="text text--inverted margin-right--large" style="background-color: gray;">
+        margin-right--large
+      </div>
+      <div class="text text--inverted margin-right--extra-large" style="background-color: gray;">
+        margin-right--extra-large
+      </div>
+    </div>
+    <h2 class="title title--primary margin-vertical--large">Margem topo</h2>
+    <div class="col col--md-12 align--center margin-bottom--large" style="border: 1px solid gray;">
+      <div class="text text--inverted margin-top--extra-small" style="background-color: gray;">
+        margin-top--extra-small
+      </div>
+      <div class="text text--inverted margin-top--small" style="background-color: gray;">
+        margin-top--small
+      </div>
+      <div class="text text--inverted margin-top--medium" style="background-color: gray;">
+        margin-top--medium
+      </div>
+      <div class="text text--inverted margin-top--large" style="background-color: gray;">
+        margin-top--large
+      </div>
+      <div class="text text--inverted margin-top--extra-large" style="background-color: gray;">
+        margin-top--extra-large
+      </div>
+    </div>
+    <h2 class="title title--primary margin-vertical--large">Margem abaixo</h2>
+    <div class="col col--md-12 align--center margin-bottom--large" style="border: 1px solid gray;">
+      <div class="text text--inverted margin-bottom--extra-small" style="background-color: gray;">
+        margin-top--extra-small
+      </div>
+      <div class="text text--inverted margin-bottom--small" style="background-color: gray;">
+        margin-top--small
+      </div>
+      <div class="text text--inverted margin-bottom--medium" style="background-color: gray;">
+        margin-top--medium
+      </div>
+      <div class="text text--inverted margin-bottom--large" style="background-color: gray;">
+        margin-top--large
+      </div>
+      <div class="text text--inverted margin-bottom--extra-large" style="background-color: gray;">
+        margin-top--extra-large
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <h1 class="title title--primary">Grid</h1>
+    <div class="row">
+      <div class="col col--pn-12" style="border: 1px solid gray;">
+        <div class="text text--primary text--medium">col col--pn-12</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col--pn-6" style="border: 1px solid gray;">
+        <div class="text text--primary text--medium">col col--pn-6</div>
+      </div>
+      <div class="col col--pn-6" style="border: 1px solid gray;">
+        <div class="text text--primary text--medium">col col--pn-6</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col--pn-4" style="border: 1px solid gray;">
+        <div class="text text--primary text--medium">col col--pn-4</div>
+      </div>
+      <div class="col col--pn-4" style="border: 1px solid gray;">
+        <div class="text text--primary text--medium">col col--pn-4</div>
+      </div>
+      <div class="col col--pn-4" style="border: 1px solid gray;">
+        <div class="text text--primary text--medium">col col--pn-4</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col--pn-3" style="border: 1px solid gray;">
+        <div class="text text--primary text--medium">col col--pn-3</div>
+      </div>
+      <div class="col col--pn-3" style="border: 1px solid gray;">
+        <div class="text text--primary text--medium">col col--pn-3</div>
+      </div>
+      <div class="col col--pn-3" style="border: 1px solid gray;">
+        <div class="text text--primary text--medium">col col--pn-3</div>
+      </div>
+      <div class="col col--pn-3" style="border: 1px solid gray;">
+        <div class="text text--primary text--medium">col col--pn-3</div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col--pn-2" style="border: 1px solid gray;">
+        <div class="text text--primary text--medium">col col--pn-2</div>
+      </div>
+      <div class="col col--pn-2" style="border: 1px solid gray;">
+        <div class="text text--primary text--medium">col col--pn-2</div>
+      </div>
+      <div class="col col--pn-2" style="border: 1px solid gray;">
+        <div class="text text--primary text--medium">col col--pn-2</div>
+      </div>
+      <div class="col col--pn-2" style="border: 1px solid gray;">
+        <div class="text text--primary text--medium">col col--pn-2</div>
+      </div>
+      <div class="col col--pn-2" style="border: 1px solid gray;">
+        <div class="text text--primary text--medium">col col--pn-2</div>
+      </div>
+      <div class="col--pn-2" style="border: 1px solid gray;">
+        <div class="text text--primary text--medium">col col--pn-2</div>
+      </div>
+    </div>
+
+    <div class="row margin-vertical--large">
+      <h2 class="title title--primary ">Espaço para formulario</h2>
+      <div class="col col--pn-6  " style="border: 1px solid gray;">
+        <div class="text text--primary text--medium">col col--pn-6</div>
+      </div>
+      <div class="col col--pn-6  " style="border: 1px solid gray;">
+        <div class="text text--primary text--medium">col col--pn-6</div>
+      </div>
+    </div>
+  </div>
+  <div class="row margin-vertical--medium">
+    <h1 class="title title--primary">Alinhadores</h1>
+    <h2 class="title title--primary margin-top--large">Horizontais</h2>
+    <div class="col col--pn-4 align--left" style="border: 1px solid gray;">
+      <div class="text text--primary text--medium">align--left</div>
+    </div>
+    <div class="col col--pn-4 align--center" style="border: 1px solid gray;">
+      <div class="text text--primary text--medium">align--center</div>
+    </div>
+    <div class="col col--pn-4 align--right" style="border: 1px solid gray;">
+      <div class="text text--primary text--medium">align--right</div>
+    </div>
+    <h2 class="title title--primary margin-top--large">Verticais</h2>
+    <div class="col col--pn-4" style="border: 1px solid gray; height: 50px">
+      <div class="text text--primary text--medium align--top">align--top</div>
+    </div>
+    <div class="col col--pn-4" style="border: 1px solid gray; height: 50px">
+      <div class="text text--primary text--medium align--middle">
+        align--center
+      </div>
+    </div>
+    <div class="col col--pn-4" style="border: 1px solid gray; height: 50px">
+      <div class="text text--primary text--medium align--bottom">
+        align--right
+      </div>
+    </div>
+  </div>
+  <div class="row margin-vertical--large">
+    <h1 class="title title--primary">Image Sizes</h1>
+    <div class="col col--pn-12 margin-vertical--small">
+      <img src="" alt="" class="image image--extra-small " style="background-color: gray;" />
+      <div class="text text--primary">image--extra-small</div>
+    </div>
+    <div class="col col--pn-12 margin-vertical--small">
+      <img src="" alt="" class="image image--small" style="background-color: gray;" />
+      <div class="text text--primary">image--small</div>
+    </div>
+    <div class="col col--pn-12 margin-vertical--small">
+      <img src="" alt="" class="image image--medium" style="background-color: gray;" />
+      <div class="text text--primary">image--medium</div>
+    </div>
+    <div class="col col--pn-12 margin-vertical--small">
+      <img src="" alt="" class="image image--large" style="background-color: gray;" />
+      <div class="text text--primary">image--large</div>
+    </div>
+    <div class="col col--pn-12 margin-vertical--small">
+      <img src="" alt="" class="image image--extra-large" style="background-color: gray;" />
+      <div class="text text--primary">image--extra-large</div>
+    </div>
+  </div>
+  <div class="row margin-vertical--large">
+    <h1 class="title title--primary">Collapse</h1>
+    <div class="col col--md-3">
+      <div class="collapse margin-vertical--medium">
+        <button class="collapse__header padding--small">
+          <svg role="img" class="icon icon--small">
+            <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+          </svg>
+          <div class="text text--primary text--large text--bold margin-left--medium">
+            Tipo do Imóvel
+          </div>
+        </button>
+        <div class="collapse__container ">
+          <div class="collapse__body padding--small">
+            <div class="text text--small text--primary">Item</div>
+          </div>
+          <div class="collapse__footer padding--small">
+            <a href="" class="link link--primary link--small ">
+              <svg role="img" class="icon icon--extra-small margin-right--small">
+                <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+              </svg>
+              <span>Limpar filtros</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row margin-vertical--large">
+    <h1 class="title title--primary">Collapsable-text</h1>
+    <div class="col col--pn-4">
+      <div class="collapsable-text margin-top--medium margin-bottom--large">
+        <div class="collapsable-text__container">
+          <div class="text text--small text--primary">
+            é uma estufa, normalmente anexada a uma residência, usada com
+            motivos recreacionais durante o inverno. Pode ser usada como uma
+            área para criação de iluminação e ventilação de outras áreas,
+            tornado o ambiente mais atrativo, permitindo também uma maior
+            integração com a natureza
+          </div>
+          <div class="collapsable-text__footer">
+            <button type="button" class="button-text button-text--primary button-text--small align--right">
+              Mais
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row margin-vertical--large">
+    <h1 class="title title--primary">Loading</h1>
+    <div class="col col--pn-4">
+      <div class="loading">
+        <div class="loading__element loading--animation-first"></div>
+        <div class="loading__element loading--animation-second"></div>
+        <div class="loading__element loading--animation-third"></div>
+      </div>
+    </div>
+  </div>
+  <div class="row margin-vertical--large">
+    <h1 class="title title--primary">N Progress</h1>
+    <div class="col col--pn-4">
+      <span class="n-progress"></span>
+    </div>
+  </div>
+</body>
+
+</html>

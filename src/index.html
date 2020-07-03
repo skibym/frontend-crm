@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="pt-BR" class="full-height">
+
+<head>
+  <title>Biblioteca</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.default.css">
+</head>
+
+<body class="full-height">
+  <div class="shell">
+    <div class="navigation">
+      <a href="" class="navigation__user">
+        <img src="images/foto.jpg" alt="" class="navigation__user-item">
+        <div class="text text--center text--small  text--inverted navigation__name">Fulana</div>
+        <div class="navigation__notification">
+          <div class="text text--inverted text--bold">3</div>
+        </div>
+      </a>
+      <a href="" class="navigation__item">
+        <img src="images/icons/home.svg" class="navigation__icon" alt="">
+        <div class="navigation__title">
+          Inicio
+        </div>
+      </a>
+      <a href="" class="navigation__item is-active">
+        <img src="images/icons/proprietario.svg" class="navigation__icon" alt="">
+        <div class="navigation__title">
+          Proprietários
+        </div>
+      </a>
+      <a href="" class="navigation__item ">
+        <img src="images/icons/imoveis.svg" class="navigation__icon" alt="">
+        <div class="navigation__title text">
+          Imoveis
+        </div>
+      </a>
+      <a href="" class="navigation__item ">
+        <img src="images/icons/anuncios.svg" class="navigation__icon" alt="">
+        <div class="navigation__title">
+          Anúncios
+        </div>
+      </a>
+      <a href="" class="navigation__item ">
+        <img src="images/icons/config.svg" class="navigation__icon" alt="">
+        <div class="navigation__title">
+          Config
+        </div>
+      </a>
+      <a href="" class="navigation__logo">
+        <div class="col col--pn-12 align--center">
+          <img src="images/logo.png" class="icon--logo" alt="">
+        </div>
+        <div class="col col--pn-12 align--center padding-top--medium">
+          <div class="navigation__version">
+            ver 1.1.0
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="slide-panel">
+      <div class="row">
+        <div class="col col--sd-10 padding--small">
+          <h4 class="title title--extra-small title--primary">
+            Suporte
+          </h4>
+        </div>
+        <div class="col col--sd-2 align--right padding--small">
+          <button type="button" class="button--icon">
+            <svg class="icon icon--small icon--primary" viewBox="0 0 512 512">
+              <g>
+                <path
+                  d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5 c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9 c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z">
+                </path>
+              </g>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col--sd-12">
+          <div class="row">
+            <div class="col col--sd-2 padding--small padding-bottom--large">
+              <img src="images/suporte.png" class="image" alt="">
+            </div>
+            <div class="col col--sd-10 padding--small padding-bottom--large">
+              <span class="text text--medium text--primary">
+                Teve algum problema? Aqui você pode descrever o que está
+                acontecendo, lembre-se de dizer aqui tudo que está acontecendo.
+              </span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col col--sd-12">
+              <div class="row">
+                <div class="col col--sd-12 padding--small">
+                  <div class="input">
+                    <div class="col col--sd-12">
+                      <label class="label label--title">
+                        Mensagem
+                      </label>
+                    </div>
+                    <div class="col col--sd-12">
+                      <div class="input__info">
+                        <textarea class="input__textarea" type="textarea" placeholder="O que tem a nos dizer?" rows="10"
+                          cols="1" autocomplete="off">
+                        </textarea>
+                      </div>
+                      <span class="text text--error"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col--sd-12 padding--small">
+                  <button type="button" class="button button--primary button--full">
+                    <svg class="icon margin-right--small align--right icon--small icon--primary" stroke="currentColor"
+                      viewBox="0 0 24 24">
+                      <g>
+                        <path
+                          d="M22.27 13.47l-8.8 0 0 8.8 -2.94 0 0 -8.8 -8.8 0 0 -2.94 8.8 0 0 -8.8 2.94 0 0 8.8 8.8 0 0 2.94z">
+                        </path>
+                      </g>
+                    </svg>
+                    <span>Abrir solicitação</span>
+                  </button></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="top-bar top-bar--menu">
+      <div class="col col--sd-10">
+        <div class="col padding-right--medium">
+          <img src="images/foto.jpg" alt="" class="images" style="width: 30px; height: 30px; border-radius: 100%;">
+        </div>
+        <div class="col col--sd-10 ">
+          <div class="col col--sd-12">
+            <div class="text text--primary text--medium text--bold">
+              Nome do usuario
+            </div>
+          </div>
+          <div class="col col--sd-12">
+            <div class="text text--secondary text--small">
+              Nome da imobilidaria
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col col--sd-2 align--right align--middle">
+        <div class="top-bar__items">
+          <nav class="col col--pn-12 align--right">
+            <button type="button" class="button--icon padding-horizontal--medium" title="Sair">
+              <svg role="img" class="icon icon--primary icon--small">
+                <use xlink:href="images/icons/actions-sprite.svg#power"></use>
+              </svg>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-header page-header--menu">
+      <h1 class="title title--primary title--large">
+        Mapa de paginas
+      </h1>
+      <section class="breadcrumb">
+        <ul class="breadcrumb__box">
+          <li>
+            <a href="#">
+              <span>Home</span>
+            </a>
+          </li>
+          <li class="is-active">
+            <span>Dados do imóvel</span>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <div class="content content--menu">
+
+      <div class="row">
+        <div class="col col--pn-3 col--stretch padding--small">
+          <div class="box box--shadow">
+            <div class="box__container">
+              <div class="row ">
+                <div class="col col--pn-12 padding-bottom--medium ">
+                  <h3 class="title title--primary title--medium">Imóveis</h3>
+                </div>
+                <div class="col col--pn-12 padding-vertical--small">
+                  <a href="imoveis-cadastro-intro.html" class="link link--secondary link--medium">
+                    Cadastro - introdução
+                  </a>
+                </div>
+                <div class="col col--pn-12 padding-vertical--small">
+                  <a href="imoveis-cadastro-1.html" class="link link--secondary link--medium">
+                    Cadastro - dados básicos
+                  </a>
+                </div>
+                <div class="col col--pn-12 padding-vertical--small">
+                  <a href="imoveis-cadastro-2.html" class="link link--secondary link--medium">
+                    Cadastro - sobre o imovel
+                  </a>
+                </div>
+                <div class="col col--pn-12 padding-vertical--small">
+                  <a href="imoveis-cadastro-3.html" class="link link--secondary link--medium">
+                    Cadastro - endereço
+                  </a>
+                </div>
+                <div class="col col--pn-12 padding-vertical--small">
+                  <a href="imoveis-cadastro-4.html" class="link link--secondary link--medium">
+                    Cadastro - caracteristica
+                  </a>
+                </div>
+                <div class="col col--pn-12 padding-vertical--small">
+                  <a href="imoveis-cadastro-5.html" class="link link--secondary link--medium">
+                    Cadastro - fotos
+                  </a>
+                </div>
+                <div class="col col--pn-12 padding-vertical--small">
+                  <a href="imoveis-cadastro-6.html" class="link link--secondary link--medium">
+                    Cadastro - videos
+                  </a>
+                </div>
+                <div class="col col--pn-12 padding-vertical--small">
+                  <a href="imoveis-cadastro-7.html" class="link link--secondary link--medium">
+                    Cadastro - perfil do imovel
+                  </a>
+                </div>
+                <div class="col col--pn-12 padding-vertical--small">
+                  <a href="imoveis-cadastro-8.html" class="link link--secondary link--medium">
+                    Cadastro - divulgação
+                  </a>
+                </div>
+                <div class="col col--pn-12 padding-vertical--small">
+                  <a href="imoveis-cadastro-9.html" class="link link--secondary link--medium">
+                    Cadastro - revisão
+                  </a>
+                </div>
+                <div class="col col--pn-12 padding-vertical--small">
+                  <a href="imoveis-fim-cadastro.html" class="link link--secondary link--medium">
+                    Cadastro - conclusão
+                  </a>
+                </div>
+                <div class="col col--pn-12 padding-vertical--small">
+                  <a href="imoveis-consulta.html" class="link link--secondary link--medium">
+                    Consulta
+                  </a>
+                </div>
+                <div class="col col--pn-12 padding-vertical--small">
+                  <a href="imoveis-consulta-sem-resultados.html" class="link link--secondary link--medium">
+                    Consulta vazia
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col--pn-3 col--stretch padding--small">
+          <div class="box box--shadow">
+            <div class="box__container">
+              <div class="row ">
+                <div class="col col--pn-12 align--top">
+                  <div class="col col--pn-12 padding-bottom--medium ">
+                    <h3 class="title title--primary title--medium">Proprietário</h3>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="proprietarios-cadastro-intro.html" class="link link--secondary link--medium">
+                      Cadastro - Introdução
+                    </a>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="proprietarios-cadastro-1.html" class="link link--secondary link--medium">
+                      Cadastro - responsavel do cadastro
+                    </a>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="proprietarios-cadastro-2.html" class="link link--secondary link--medium">
+                      Cadastro - dados pessoais
+                    </a>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="proprietarios-cadastro-3.html" class="link link--secondary link--medium">
+                      Cadastro - contato
+                    </a>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="proprietarios-cadastro-4.html" class="link link--secondary link--medium">
+                      Cadastro - endereço
+                    </a>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="proprietarios-fim-cadastro.html" class="link link--secondary link--medium">
+                      Cadastro - conclusão
+                    </a>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="proprietarios-consulta.html" class="link link--secondary link--medium">
+                      Consulta
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col--pn-3 col--stretch padding--small">
+          <div class="box box--shadow">
+            <div class="box__container">
+              <div class="row ">
+                <div class="col col--pn-12 align--top">
+                  <div class="col col--pn-12 padding-bottom--medium ">
+                    <h3 class="title title--primary title--medium">Login</h3>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="login.html" class="link link--secondary link--medium">
+                      Usuário
+                    </a>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="login-senha.html" class="link link--secondary link--medium">
+                      Senha
+                    </a>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="login-recuperar-senha.html" class="link link--secondary link--medium">
+                      Recuperar senha
+                    </a>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="login-boas-vindas.html" class="link link--secondary link--medium">
+                      Boas vindas
+                    </a>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="login-cadastro-inicial.html" class="link link--secondary link--medium">
+                      Cadastro inicial
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col--pn-3 col--stretch padding--small">
+          <div class="box box--shadow">
+            <div class="box__container">
+              <div class="row ">
+                <div class="col col--pn-12 align--top">
+                  <div class="col col--pn-12 padding-bottom--medium ">
+                    <h3 class="title title--primary title--medium">Hub</h3>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="hub.html" class="link link--secondary link--medium">
+                      Hub geral
+                    </a>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="hub-imoveis.html" class="link link--secondary link--medium">
+                      Hub imóveis
+                    </a>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="hub-condominios.html" class="link link--secondary link--medium">
+                      Hub codominios
+                    </a>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="hub-proprietarios.html" class="link link--secondary link--medium">
+                      Hub proprietários
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col--pn-3 col--stretch padding--small">
+          <div class="box box--shadow">
+            <div class="box__container box__container--hover">
+              <div class="row ">
+                <div class="col col--pn-12 align--top">
+                  <div class="col col--pn-12 padding-bottom--medium ">
+                    <h3 class="title title--primary title--medium">Sistema</h3>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="sistema-404.html" class="link link--secondary link--medium">
+                      404
+                    </a>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="sistema-loading.html" class="link link--secondary link--medium">
+                      Loading
+                    </a>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="sistema-skeleton.html" class="link link--secondary link--medium">
+                      Skeleton
+                    </a>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="sistema-empty-data.html" class="link link--secondary link--medium">
+                      Empty State
+                    </a>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="sistema-componentes.html" class="link link--secondary link--medium">
+                      Componentes
+                    </a>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="sistema-exemplo.html" class="link link--secondary link--medium">
+                      Pagina exemplo
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col--pn-3 col--stretch padding--small">
+          <div class="box box--shadow">
+            <div class="box__container">
+              <div class="row ">
+                <div class="col col--pn-12 align--top">
+                  <div class="col col--pn-12 padding-bottom--medium ">
+                    <h3 class="title title--primary title--medium">Configurações</h3>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="configuracoes-gerais.html" class="link link--secondary link--medium">
+                      Configurações gerais
+                    </a>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="configuracoes-portais-anuncios.html" class="link link--secondary link--medium">
+                      Configurações portais
+                    </a>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="configuracoes-tipo-imoveis.html" class="link link--secondary link--medium">
+                      Configurações tipo imoveis
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col--pn-3 col--stretch padding--small">
+          <div class="box box--shadow">
+            <div class="box__container">
+              <div class="row ">
+                <div class="col col--pn-12 align--top">
+                  <div class="col col--pn-12 padding-bottom--medium ">
+                    <h3 class="title title--primary title--medium">CRM</h3>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="crm.html" class="link link--secondary link--medium">
+                      Crm
+                    </a>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="crm-contato-cadastro.html" class="link link--secondary link--medium">
+                      Cadastro contato
+                    </a>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="crm-oportunidade-cadastro.html" class="link link--secondary link--medium">
+                      Cadastro oportunidade
+                    </a>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="crm-oportunidade-detalhe.html" class="link link--secondary link--medium">
+                      Detalhe oportunidade
+                    </a>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="crm-tarefa-cadastro.html" class="link link--secondary link--medium">
+                      Cadastro de tarefa
+                    </a>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="crm-tarefa-linha-do-tempo.html" class="link link--secondary link--medium">
+                      Tarefa linha do tempo
+                    </a>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="crm-tarefa-detalhes.html" class="link link--secondary link--medium">
+                      Tarefa detalhes
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col--pn-3 col--stretch padding--small">
+          <div class="box box--shadow">
+            <div class="box__container">
+              <div class="row ">
+                <div class="col col--pn-12 align--top">
+                  <div class="col col--pn-12 padding-bottom--medium ">
+                    <h3 class="title title--primary title--medium">Dashboard</h3>
+                  </div>
+                  <div class="col col--pn-12 padding-vertical--small">
+                    <a href="dashboard-exemplo.html" class="link link--secondary link--medium">
+                      Pagina exemplo
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>

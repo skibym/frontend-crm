@@ -1,0 +1,50 @@
+.pill{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  border-left: $border--medium $color--strokes;
+  border-right: $border--medium $color--strokes;
+  border-bottom: $border--medium $color--strokes;
+  padding: $space--small;
+  background-color: $background--clean;
+}
+
+.pill--no-border{
+  border: none;
+  padding: 0;
+}
+
+.pill__item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $color--primary-200;
+  color: $color--primary-700;
+  font-weight: $text-weight--medium;
+  font-size: $text--small;
+  border: none;
+  border-radius: $border--radius;
+  padding: $space--medium;
+  margin: $space--small;
+  cursor: pointer;
+
+  span{
+    flex-grow: 1;
+  }
+
+  svg{
+    fill: darken($color--strokes, 18%);
+  }
+
+  &:focus{
+    outline: none;
+    border: $border--small $text--inverted;
+    box-shadow: $shadow-focus $color--primary;
+  }
+
+  &:hover{
+    background-color: lighten($color--primary, 35%);
+    transition: background-color $transition;
+  }
+}

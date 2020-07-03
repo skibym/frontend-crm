@@ -1,0 +1,20 @@
+.slide-panel {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 100%;
+  position: fixed;
+  padding: $space--medium;
+  right: 0;
+  height: 100%;
+  box-shadow: -2px 2px 8px 0px rgba(10, 36, 102, 0.1);
+  margin-top: 49px;
+  background-color: $background--extra-light;
+  z-index: $more-visible;
+
+  @media #{$tablets} {
+   width: 400px;
+   margin-top: 0;
+  }
+}
+

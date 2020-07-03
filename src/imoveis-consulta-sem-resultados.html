@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="pt-BR" class="full-height">
+
+<head>
+  <title>Biblioteca</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.default.css">
+</head>
+
+<body class="full-height">
+  <div class="shell">
+    <div class="navigation">
+      <a href="" class="navigation__user">
+        <img src="images/foto.jpg" alt="" class="navigation__user-item">
+        <div class="text text--center text--small  text--inverted navigation__name">Fulana</div>
+        <div class="navigation__notification">
+          <div class="text text--inverted text--bold">3</div>
+        </div>
+      </a>
+      <a href="" class="navigation__item is-active">
+        <img src="images/icons/proprietario.svg" class="navigation__icon" alt="">
+        <div class="navigation__title">
+          Proprietários
+        </div>
+      </a>
+      <a href="" class="navigation__item ">
+        <img src="images/icons/imoveis.svg" class="navigation__icon" alt="">
+        <div class="navigation__title text">
+          Imoveis
+        </div>
+      </a>
+      <a href="" class="navigation__item ">
+        <img src="images/icons/anuncios.svg" class="navigation__icon" alt="">
+        <div class="navigation__title">
+          Anúncios
+        </div>
+      </a>
+      <a href="" class="navigation__item ">
+        <img src="images/icons/config.svg" class="navigation__icon" alt="">
+        <div class="navigation__title">
+          Config
+        </div>
+      </a>
+      <a href="" class="navigation__logo">
+        <img src="images/logo.png" class="icon--logo" alt="">
+      </a>
+    </div>
+    <div class="top-bar top-bar--menu">
+      <div class="col col--sd-4 col--tb-4">
+        <div class="input">
+          <div class="input__info input__info--left ">
+            <input class="input__item" id="Name" name="Name" type="text" placeholder="">
+            <svg role="img" class="input__icon input__display--left">
+              <use xlink:href="images/icons/actions-sprite.svg#search"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="col col--sd-8 col--tb-8 align--right align--middle">
+        <div class="top-bar__items">
+          <nav class="col col--sd-12 align--right">
+            <button type="button" class="button--icon padding-horizontal--medium" title="Notificações">
+              <svg role="img" class="icon icon--primary icon--small">
+                <use xlink:href="images/icons/actions-sprite.svg#bell-inverted"></use>
+              </svg>
+            </button>
+            <button type="button" class="button--icon padding-horizontal--medium" title="Help">
+              <svg role="img" class="icon icon--primary icon--small">
+                <use xlink:href="images/icons/actions-sprite.svg#help-inverted"></use>
+              </svg>
+            </button>
+            <button type="button" class="button--icon padding-horizontal--medium" title="Configurações">
+              <svg role="img" class="icon icon--primary icon--small">
+                <use xlink:href="images/icons/actions-sprite.svg#settings-inverted"></use>
+              </svg>
+            </button>
+            <button type="button" class="button--icon padding-horizontal--medium" title="Sair">
+              <svg role="img" class="icon icon--primary icon--small">
+                <use xlink:href="images/icons/actions-sprite.svg#power"></use>
+              </svg>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="page-header page-header--menu">
+      <h1 class="title title--primary title--large">
+        Consulta de Imoveis
+      </h1>
+      <section class="breadcrumb">
+        <ul class="breadcrumb__box">
+          <li>
+            <a href="#">
+              <span>Home</span>
+            </a>
+          </li>
+          <li class="is-active">
+            <span>Dados do imóvel</span>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <div class="content content--menu">
+      <div class="row padding-bottom--large">
+        <div class="col col--sd-12">
+          <div class="box box--shadow">
+            <div class="box__container padding--large">
+              <div class="row">
+                <div class="col col--sd-12 padding-bottom--large">
+                  <h2 class="title title--medium title--primary">Busca</h2><span
+                    class="text text--medium text--primary">Localize os proprietários cadastrados</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col--sd-12 padding-bottom--large">
+                  <div class="button-selectable"><button type="button" title="Pessoa fisica"
+                      class="button-selectable__item is-active margin-bottom--small"><img
+                        src="/assets/cdc7bdc4adbf991962e0ba186640955b.png"
+                        class="padding-right--small image-size image-size--extra-small"><span
+                        class="text text--medium text--bold text--primary">Pessoa fisica</span></button><button
+                      type="button" title="Pessoa juridica" class="button-selectable__item margin-bottom--small"><img
+                        src="/assets/5f14caae8e46f83a083b202e52e23680.png"
+                        class="padding-right--small image-size image-size--extra-small"><span
+                        class="text text--medium text--bold text--primary">Pessoa juridica</span></button><button
+                      type="button" title="Por código" class="button-selectable__item margin-bottom--small"><svg
+                        class="icon padding-right--small icon--extra-large icon--primary" viewBox="0 0 24 24">
+                        <g>
+                          <path
+                            d="M9.4,2.3c4.1,0,7.4,3.2,7.4,7.2c0,1.8-0.7,3.4-1.8,4.7l0.3,0.3h0.9l5.7,5.6l-1.7,1.7l-5.7-5.6v-0.9L14.3,15  c-1.3,1.1-3,1.7-4.8,1.7C5.3,16.7,2,13.5,2,9.5S5.3,2.3,9.4,2.3 M9.4,4.5c-2.9,0-5.1,2.2-5.1,5s2.3,5,5.1,5s5.1-2.2,5.1-5  S12.3,4.5,9.4,4.5z">
+                          </path>
+                        </g>
+                      </svg><span class="text text--medium text--bold text--primary">Por código</span></button></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col--sd-12 col--md-4 padding--small">
+                  <div class="input">
+                    <div class="col col--sd-12"><label for="name" class="label label--title">Nome</label><span
+                        class="label label--description">Qualquer parte do nome é suficiente</span><span
+                        class="label label--optional"></span></div>
+                    <div class="col col--sd-12">
+                      <div class="input__info"><input class="input__item" id="name" name="name" type="text"
+                          placeholder="Nome do proprietario" autocomplete="nope" value=""></div><span
+                        class="text text--error"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col--sd-12 col--md-4 padding--small">
+                  <div class="input">
+                    <div class="col col--sd-12"><label for="cpf" class="label label--title">CPF</label><span
+                        class="label label--optional">Opcional</span></div>
+                    <div class="col col--sd-12">
+                      <div class="input__info"><input mask="111.111.111-11" class="input__item" id="cpf" name="cpf"
+                          type="text" placeholder="CPF do proprietario" autocomplete="nope" maxlength="14" size="14"
+                          value=""></div><span class="text text--error"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col--sd-12 col--md-2 padding--small">
+                  <div class="input">
+                    <div class="col col--sd-12"><label for="beginDate" class="label label--title">Data
+                        inicial</label><span class="label label--optional">Opcional</span></div>
+                    <div class="col col--sd-12">
+                      <div class="input__info"><input mask="11/11/1111" class="input__item" id="beginDate"
+                          name="beginDate" type="text" placeholder="01/01/2019" autocomplete="nope" maxlength="10"
+                          size="10" value=""></div><span class="text text--error"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col--sd-12 col--md-2 padding--small">
+                  <div class="input">
+                    <div class="col col--sd-12"><label for="endDate" class="label label--title">Data final</label><span
+                        class="label label--optional">Opcional</span></div>
+                    <div class="col col--sd-12">
+                      <div class="input__info"><input mask="11/11/1111" class="input__item" id="endDate" name="endDate"
+                          type="text" placeholder="01/01/2019" autocomplete="nope" maxlength="10" size="10" value="">
+                      </div><span class="text text--error"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col--sd-12 col--md-4 padding--small">
+                  <div class="toggle-group"><span class="label label--title">Ativo</span><span
+                      class="label label--description">Ativo ou inativo</span>
+                    <div class="toggle-group__box"><button type="button"
+                        class="toggle-group__item is-active">Sim</button></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row"></div>
+              <div class="row">
+                <div class="col col--sd-12 col--md-4 padding--small">
+                  <div class="row">
+                    <div class="col col--sd-12">
+                      <div class="input"><label for="dataCollectionOrigin" class="label label--title">Origem da
+                          captação</label><span class="label label--description">Por qual canal ocorreu a
+                          captação</span>
+                        <div class="input__info input__info--right"><input class="input__item" id="dataCollectionOrigin"
+                            name="dataCollectionOrigin" type="text" placeholder="Selecione a origem" autocomplete="nope"
+                            value=""><span class="input__display input__display--right"><button type="button"
+                              class="button--icon input__icon input__icon--right"><svg
+                                class="icon icon--small icon--primary" viewBox="0 0 24 24">
+                                <g>
+                                  <path d="M4.4,5.9l7.6,7.6l7.6-7.6l2.3,2.4L12,18.1L2.1,8.2L4.4,5.9z"></path>
+                                </g>
+                              </svg></button></span></div>
+                        <div class="combobox" role="combobox" aria-expanded="false" aria-controls="ex3-listbox"></div>
+                        <span class="text text--error"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col--sd-12 col--md-4 padding--small">
+                  <div class="row">
+                    <div class="col col--sd-12">
+                      <div class="input"><label for="profile" class="label label--title">Perfil do
+                          proprietário</label><span class="label label--description">Como pode ser descrito</span>
+                        <div class="input__info input__info--right"><input class="input__item" id="profile"
+                            name="profile" type="text" placeholder="Selecione o perfil" autocomplete="nope"
+                            value=""><span class="input__display input__display--right"><button type="button"
+                              class="button--icon input__icon input__icon--right"><svg
+                                class="icon icon--small icon--primary" viewBox="0 0 24 24">
+                                <g>
+                                  <path d="M4.4,5.9l7.6,7.6l7.6-7.6l2.3,2.4L12,18.1L2.1,8.2L4.4,5.9z"></path>
+                                </g>
+                              </svg></button></span></div>
+                        <div class="combobox" role="combobox" aria-expanded="false" aria-controls="ex3-listbox"></div>
+                        <span class="text text--error"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col--sd-12 col--md-4 padding--small">
+                  <div class="row">
+                    <div class="col col--sd-12">
+                      <div class="input"><label for="dataCollectors" class="label label--title">Captadores</label><span
+                          class="label label--description">Quem captou o proprietário</span>
+                        <div class="input__info input__info--right"><input class="input__item" id="dataCollectors"
+                            name="dataCollectors" type="text" placeholder="Selecione o captador" autocomplete="nope"
+                            value=""><span class="input__display input__display--right"><button type="button"
+                              class="button--icon input__icon input__icon--right"><svg
+                                class="icon icon--small icon--primary" viewBox="0 0 24 24">
+                                <g>
+                                  <path d="M4.4,5.9l7.6,7.6l7.6-7.6l2.3,2.4L12,18.1L2.1,8.2L4.4,5.9z"></path>
+                                </g>
+                              </svg></button></span></div>
+                        <div class="combobox" role="combobox" aria-expanded="false" aria-controls="ex3-listbox"></div>
+                        <span class="text text--error"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col col--sd-12 box__footer"><button type="button" class="button button--primary"><svg
+                  class="icon margin-right--small align--right icon--small icon--primary" stroke="currentColor"
+                  viewBox="0 0 24 24">
+                  <g>
+                    <path
+                      d="M9.4,2.3c4.1,0,7.4,3.2,7.4,7.2c0,1.8-0.7,3.4-1.8,4.7l0.3,0.3h0.9l5.7,5.6l-1.7,1.7l-5.7-5.6v-0.9L14.3,15  c-1.3,1.1-3,1.7-4.8,1.7C5.3,16.7,2,13.5,2,9.5S5.3,2.3,9.4,2.3 M9.4,4.5c-2.9,0-5.1,2.2-5.1,5s2.3,5,5.1,5s5.1-2.2,5.1-5  S12.3,4.5,9.4,4.5z">
+                    </path>
+                  </g>
+                </svg> <span>Pesquisar</span></button></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col--sd-12">
+          <div class="box box--shadow">
+            <div class="box__container">
+              <div class="row ">
+                <div class="col col--sd-12 padding-bottom--medium ">
+                  <h2 class="title title--primary title--medium">Resultado da busca</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col--sd-12 align--center padding-vertical--medium">
+                  <img src="images/vazio.png" alt="" class="image image--extra-large">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col--sd-12 align--center padding-vertical--medium">
+                  <h1 class="title title--medium title--center title--primary">Busca sem resultados!</h1>
+                  <span class="text text--medium text--primary padding-bottom--large">Você pode alterar as opções para
+                    conseguir encontrar o que você procura</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>

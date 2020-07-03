@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="pt-BR" class="full-height">
+
+<head>
+  <title>Biblioteca</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.default.css">
+</head>
+
+<body class="full-height">
+  <div class="shell">
+    <div class="navigation">
+      <a href="" class="navigation__user">
+        <img src="images/foto.jpg" alt="" class="navigation__user-item">
+        <div class="text text--center text--small  text--inverted navigation__name">Fulana</div>
+        <div class="navigation__notification">
+          <div class="text text--inverted text--bold">3</div>
+        </div>
+      </a>
+      <a href="" class="navigation__item is-active">
+        <img src="images/icons/proprietario.svg" class="navigation__icon" alt="">
+        <div class="navigation__title">
+          Proprietários
+        </div>
+      </a>
+      <a href="" class="navigation__item ">
+        <img src="images/icons/imoveis.svg" class="navigation__icon" alt="">
+        <div class="navigation__title text">
+          Imoveis
+        </div>
+      </a>
+      <a href="" class="navigation__item ">
+        <img src="images/icons/anuncios.svg" class="navigation__icon" alt="">
+        <div class="navigation__title">
+          Anúncios
+        </div>
+      </a>
+      <a href="" class="navigation__item ">
+        <img src="images/icons/config.svg" class="navigation__icon" alt="">
+        <div class="navigation__title">
+          Config
+        </div>
+      </a>
+      <a href="" class="navigation__logo">
+        <img src="images/logo.png" class="icon--logo" alt="">
+      </a>
+    </div>
+    <div class="top-bar top-bar--menu">
+      <div class="col col--pn-8 col--tb-4">
+        <div class="input">
+          <div class="input__info input__info--left ">
+            <input class="input__item" id="Name" name="Name" type="text" placeholder="">
+            <svg role="img" class="input__icon input__display--left">
+              <use xlink:href="images/icons/actions-sprite.svg#search"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="col col--pn-4 col--tb-8 align--right align--middle">
+        <div class="top-bar__items">
+          <nav class="col col--pn-12 align--right">
+            <button type="button" class="button--icon padding-horizontal--medium" title="Notificações">
+              <svg role="img" class="icon icon--primary icon--small">
+                <use xlink:href="images/icons/actions-sprite.svg#bell-inverted"></use>
+              </svg>
+            </button>
+            <button type="button" class="button--icon padding-horizontal--medium" title="Help">
+              <svg role="img" class="icon icon--primary icon--small">
+                <use xlink:href="images/icons/actions-sprite.svg#help-inverted"></use>
+              </svg>
+            </button>
+            <button type="button" class="button--icon padding-horizontal--medium" title="Configurações">
+              <svg role="img" class="icon icon--primary icon--small">
+                <use xlink:href="images/icons/actions-sprite.svg#settings-inverted"></use>
+              </svg>
+            </button>
+            <button type="button" class="button--icon padding-horizontal--medium" title="Sair">
+              <svg role="img" class="icon icon--primary icon--small">
+                <use xlink:href="images/icons/actions-sprite.svg#power"></use>
+              </svg>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="page-header page-header--menu">
+      <h1 class="title title--primary title--small">
+        Imóveis
+      </h1>
+      <div class="text text--medium text--primary">
+        Configurações dos Imóveis
+      </div>
+      <section class="breadcrumb">
+        <ul class="breadcrumb__box">
+          <li>
+            <a href="#">
+              <span>Home</span>
+            </a>
+          </li>
+          <li class="is-active">
+            <span>Dados do imóvel</span>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <div class="content content--menu">
+      <div class="row">
+        <div class="col col--sd-12">
+          <div class="col col--sd-12 box box--shadow">
+            <div class="col col--sd-12 box__container">
+              <div class="tab">
+                <div class="tab__header"><button type="button" class="tab__header-item"><span class="text text--small text--primary">Residencial</span></button><button
+                    type="button" class="tab__header-item is-active"><span class="text text--medium text--primary">Comercial</span></button><button
+                    type="button" class="tab__header-item"><span class="text text--small text--primary">Industrial</span></button><button
+                    type="button" class="tab__header-item"><span class="text text--small text--primary">Rural</span></button></div>
+                <div class="tab__container tab-enter-done">
+                  <div class="tab__container-item">
+                    <div class="row">
+                      <div class="col col--pn-12 col--md-8">
+                        <div class="row">
+                          <div class="col col--sd-12">
+                            <div class="input">
+                              <label class="label label--title">Tipo do Imóvel</label><span class="label label--description">Tipo
+                                e categoria do imóvel</span>
+                              <div class="input__info input__info--right">
+                                <input class="input__item" type="text" placeholder="Selecione..." aria-controls="ex3-listbox"
+                                  autocomplete="off" value="">
+                                <span class="input__display input__display--right">
+                                  <button type="button" class="button--icon input__icon input__icon--right">
+                                    <svg class="icon icon--medium icon--primary" viewBox="0 0 24 24">
+                                      <g>
+                                        <path d="M4.4,5.9l7.6,7.6l7.6-7.6l2.3,2.4L12,18.1L2.1,8.2L4.4,5.9z"></path>
+                                      </g>
+                                    </svg>
+                                  </button>
+                                </span>
+                              </div>
+                              <div class="combobox" role="combobox" aria-expanded="false" aria-controls="ex3-listbox"></div>
+                              <span class="text text--error"></span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col col--pn-12 col--md-8">
+                        <h4 class="title title--extra-small title--secondary">Infraestrtura</h4>
+                        <span class="text text--medium text--primary">Definem itens estruturais do imóvel.</span>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col col--pn-12 col--md-8 padding-top--large">
+                        <div class="row margin-bottom--small">
+                          <div class="col col--sd-12">
+                            <div class="col col--sd-12 box">
+                              <div class="col col--sd-12 box__container">
+                                <div class="row">
+                                  <div class="col col--sd-12">
+                                    <h4 class="title title--extra-small title--tertiary">Quartos</h4>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col col--sd-12 padding-bottom--large">
+                                    <div class="collapsable-text__container">
+                                      <span class="text collapsable-text text--medium text--primary">Lorem ipsum dolor
+                                        sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut a</span>
+                                      <div class="collapsable-text__footer align--right"><button type="button" class="button-text button-text--primary button-text--small padding-horizontal--small">Mais</button></div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row align--right">
+                                  <div class="col col--sd-12">
+                                    <div class="toggle-group">
+                                      <div class="toggle-group__box align--right"><button type="button" class="toggle-group__item">Não
+                                          visivel</button></div>
+                                    </div>
+                                  </div>
+                                  <div class="col col--sd-12">
+                                    <div class="toggle-group">
+                                      <div class="toggle-group__box align--right"><button type="button" class="toggle-group__item">Opcional</button></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

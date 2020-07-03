@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="pt-BR" class="full-height">
+
+<head>
+  <title>Biblioteca</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.default.css">
+</head>
+
+<body class="full-height">
+  <div class="shell">
+    <div class="navigation">
+      <a href="" class="navigation__user">
+        <img src="images/foto.jpg" alt="" class="navigation__user-item">
+        <div class="text text--center text--small  text--inverted navigation__name">Fulana</div>
+        <div class="navigation__notification">
+          <div class="text text--inverted text--bold">3</div>
+        </div>
+      </a>
+      <a href="" class="navigation__item is-active">
+        <img src="images/icons/proprietario.svg" class="navigation__icon" alt="">
+        <div class="navigation__title">
+          Proprietários
+        </div>
+      </a>
+      <a href="" class="navigation__item ">
+        <img src="images/icons/imoveis.svg" class="navigation__icon" alt="">
+        <div class="navigation__title text">
+          Imoveis
+        </div>
+      </a>
+      <a href="" class="navigation__item ">
+        <img src="images/icons/anuncios.svg" class="navigation__icon" alt="">
+        <div class="navigation__title">
+          Anúncios
+        </div>
+      </a>
+      <a href="" class="navigation__item ">
+        <img src="images/icons/config.svg" class="navigation__icon" alt="">
+        <div class="navigation__title">
+          Config
+        </div>
+      </a>
+      <a href="" class="navigation__logo">
+        <img src="images/logo.png" class="icon--logo" alt="">
+      </a>
+    </div>
+    <div class="top-bar top-bar--menu">
+      <div class="col col--sd-4 col--tb-4">
+        <div class="input">
+          <div class="input__info input__info--left ">
+            <input class="input__item" id="Name" name="Name" type="text" placeholder="">
+            <svg role="img" class="input__icon input__display--left">
+              <use xlink:href="images/icons/actions-sprite.svg#search"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="col col--sd-8 col--tb-8 align--right align--middle">
+        <div class="top-bar__items">
+          <nav class="col col--sd-12 align--right">
+            <button type="button" class="button--icon padding-horizontal--medium" title="Notificações">
+              <svg role="img" class="icon icon--primary icon--small">
+                <use xlink:href="images/icons/actions-sprite.svg#bell-inverted"></use>
+              </svg>
+            </button>
+            <button type="button" class="button--icon padding-horizontal--medium" title="Help">
+              <svg role="img" class="icon icon--primary icon--small">
+                <use xlink:href="images/icons/actions-sprite.svg#help-inverted"></use>
+              </svg>
+            </button>
+            <button type="button" class="button--icon padding-horizontal--medium" title="Configurações">
+              <svg role="img" class="icon icon--primary icon--small">
+                <use xlink:href="images/icons/actions-sprite.svg#settings-inverted"></use>
+              </svg>
+            </button>
+            <button type="button" class="button--icon padding-horizontal--medium" title="Sair">
+              <svg role="img" class="icon icon--primary icon--small">
+                <use xlink:href="images/icons/actions-sprite.svg#power"></use>
+              </svg>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="page-header page-header--menu">
+      <h1 class="title title--primary title--extra-large">
+        Tarefas
+      </h1>
+      <section class="breadcrumb">
+        <ul class="breadcrumb__box">
+          <li>
+            <a href="#">
+              <span>Home</span>
+            </a>
+          </li>
+          <li class="is-active">
+            <span>crm</span>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <div class="content content--menu">
+
+      <div class="row padding-bottom--large">
+        <div class="col col--sd-12">
+          <div class="box box--shadow">
+            <div class="box__container">
+              <div class="col col--sd-12 padding-bottom--large">
+                <h2 class="title title--primary title--medium">Agenda de tarefas</h2>
+              </div>
+              <div class="row">
+                <div class="col col--sd-6 padding--small padding-bottom--large">
+                  <label for="input1" class="label label--title">Filtros</label>
+                  <div class="button-selectable">
+                    <button type="button" title="Pessoa fisica"
+                      class="button-selectable__item is-active margin-bottom--small">
+                      <svg role="img" class="icon icon--primary icon--medium padding-horizontal--medium">
+                        <use xlink:href="images/icons/actions-sprite.svg#email"></use>
+                      </svg>
+                      <span class="text text--medium text--bold text--primary">Data</span>
+                    </button>
+                    <button type="button" title="Pessoa juridica" class="button-selectable__item margin-bottom--small">
+                      <svg role="img" class="icon icon--primary icon--medium padding-horizontal--medium">
+                        <use xlink:href="images/icons/actions-sprite.svg#email"></use>
+                      </svg>
+                      <span class="text text--medium text--bold text--primary">Tipo</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="collapse collapse--no-border padding-top--medium">
+                <button class="collapse__header">
+                  <svg role="img" class="icon icon--primary icon--small">
+                    <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+                  </svg>
+                  <div class="title title--primary title--small align--left padding-left--small padding-bottom--small">
+                    Próximas
+                  </div>
+                </button>
+                <div class="collapse__container">
+                  <div class="timeline">
+                    <div class="timeline__item">
+                      <div class="timeline__header">
+                        <div class="timeline__icon">
+                          <svg role="img" class="icon icon--inverted icon--medium">
+                            <use xlink:href="images/icons/actions-sprite.svg#email-inverted"></use>
+                          </svg>
+                        </div>
+                        <div class="timeline__description">
+                          <div class="col col--sd-12">
+                            <div class="text text--primary text--bold text--medium">Contato</div>
+                          </div>
+                          <div class="col col--sd-12">
+                            <div class="text text--secondary text--small">
+                              contato@contato.com.br
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline__datetime">
+                          <div class="col col--sd-5 align--right">
+                            <svg role="img" class="icon icon--primary icon--medium padding-horizontal--medium">
+                              <use xlink:href="images/icons/actions-sprite.svg#email"></use>
+                            </svg>
+                          </div>
+                          <div class="col col--sd-7">
+                            <div class="col col--sd-12">
+                              <div class="text text--secondary text--small">
+                                12 maio
+                              </div>
+                            </div>
+                            <div class="col col--sd-12">
+                              <div class="text text--secondary text--small"> 08:00 hs</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline__control">
+                          <svg role="img" class="icon icon--primary icon--medium">
+                            <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="timeline__partition"></div>
+                    <div class="timeline__item">
+                      <div class="timeline__header">
+                        <div class="timeline__icon">
+                          <svg role="img" class="icon icon--inverted icon--medium">
+                            <use xlink:href="images/icons/actions-sprite.svg#email-inverted"></use>
+                          </svg>
+                        </div>
+                        <div class="timeline__description">
+                          <div class="col col--sd-12">
+                            <div class="text text--primary text--bold text--medium">Contato</div>
+                          </div>
+                          <div class="col col--sd-12">
+                            <div class="text text--secondary text--small">
+                              contato@contato.com.br
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline__datetime">
+                          <div class="col col--sd-5 align--right">
+                            <svg role="img" class="icon icon--primary icon--medium padding-horizontal--medium">
+                              <use xlink:href="images/icons/actions-sprite.svg#email"></use>
+                            </svg>
+                          </div>
+                          <div class="col col--sd-7">
+                            <div class="col col--sd-12">
+                              <div class="text text--secondary text--small">
+                                12 maio
+                              </div>
+                            </div>
+                            <div class="col col--sd-12">
+                              <div class="text text--secondary text--small"> 08:00 hs</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline__control">
+                          <svg role="img" class="icon icon--primary icon--medium">
+                            <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="timeline__content">
+                        <div class="col col--sd-12 col--pn-6 col--tb-3 padding--small ">
+                          <div class="info">
+                            <label for="" class="info__title">contato</label>
+                            <label for="" class="info__text">Monte Serrate</label>
+                          </div>
+                        </div>
+                        <div class="col col--sd-12 col--pn-6 col--tb-3 padding--small ">
+                          <div class="info">
+                            <label for="" class="info__title">Telefone</label>
+                            <label for="" class="info__text">34 9 99199-5545</label>
+                          </div>
+                        </div>
+                        <div class="col col--sd-12 col--pn-6 col--tb-3 padding--small ">
+                          <div class="info">
+                            <label for="" class="info__title">DATA</label>
+                            <label for="" class="info__text">12/05/19</label>
+                          </div>
+                        </div>
+                        <div class="col col--sd-12 col--pn-6 col--tb-3 padding--small ">
+                          <div class="info">
+                            <label for="" class="info__title">HORA</label>
+                            <label for="" class="info__text">13:00</label>
+                          </div>
+                        </div>
+                        <div class="col col--sd-12 padding--small ">
+                          <div class="info">
+                            <label for="" class="info__title">OBERSERVACAO</label>
+                            <label for="" class="info__text">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem.
+                              &nbsp;Aliquam
+                              erat volutpat. Donec placerat
+                              nisl magna, et faucibus arcu condimentum sed.&nbsp;Lorem ipsum dolor sit amet, consectetur
+                              adipiscing
+                              elit. Aliquam at porttitor sem. &nbsp;Aliquam erat volutpat. Donec placerat nisl magna, et
+                              faucibus
+                              arcu
+                              condi
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="timeline__footer">
+                        <button type="button"
+                          class="button-text button-text--secondary button-text--small align--right margin-right--large">
+                          <svg role="img" class="icon icon--extra-small margin-right--small">
+                            <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+                          </svg>
+                          <span>Detalhes</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="collapse collapse--no-border padding-top--large">
+                <button class="collapse__header">
+                  <svg role="img" class="icon icon--primary icon--small">
+                    <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+                  </svg>
+                  <div class="title title--primary title--small align--left padding-left--small padding-bottom--small">
+                    Anteriores
+                  </div>
+                </button>
+                <div class="collapse__container">
+                  <div class="timeline">
+                    <div class="timeline__item">
+                      <div class="timeline__header">
+                        <div class="timeline__icon">
+                          <svg role="img" class="icon icon--inverted icon--medium">
+                            <use xlink:href="images/icons/actions-sprite.svg#email-inverted"></use>
+                          </svg>
+                        </div>
+                        <div class="timeline__description">
+                          <div class="col col--sd-12">
+                            <div class="text text--primary text--bold text--medium">Contato</div>
+                          </div>
+                          <div class="col col--sd-12">
+                            <div class="text text--secondary text--small">
+                              contato@contato.com.br
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline__datetime">
+                          <div class="col col--sd-5 align--right">
+                            <svg role="img" class="icon icon--primary icon--medium padding-horizontal--medium">
+                              <use xlink:href="images/icons/actions-sprite.svg#email"></use>
+                            </svg>
+                          </div>
+                          <div class="col col--sd-7">
+                            <div class="col col--sd-12">
+                              <div class="text text--secondary text--small">
+                                12 maio
+                              </div>
+                            </div>
+                            <div class="col col--sd-12">
+                              <div class="text text--secondary text--small"> 08:00 hs</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline__control">
+                          <svg role="img" class="icon icon--primary icon--medium">
+                            <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="timeline__partition"></div>
+                    <div class="timeline__item">
+                      <div class="timeline__header">
+                        <div class="timeline__icon">
+                          <svg role="img" class="icon icon--inverted icon--medium">
+                            <use xlink:href="images/icons/actions-sprite.svg#email-inverted"></use>
+                          </svg>
+                        </div>
+                        <div class="timeline__description">
+                          <div class="col col--sd-12">
+                            <div class="text text--primary text--bold text--medium">Contato</div>
+                          </div>
+                          <div class="col col--sd-12">
+                            <div class="text text--secondary text--small">
+                              contato@contato.com.br
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline__datetime">
+                          <div class="col col--sd-5 align--right">
+                            <svg role="img" class="icon icon--primary icon--medium padding-horizontal--medium">
+                              <use xlink:href="images/icons/actions-sprite.svg#email"></use>
+                            </svg>
+                          </div>
+                          <div class="col col--sd-7">
+                            <div class="col col--sd-12">
+                              <div class="text text--secondary text--small">
+                                12 maio
+                              </div>
+                            </div>
+                            <div class="col col--sd-12">
+                              <div class="text text--secondary text--small"> 08:00 hs</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline__control">
+                          <svg role="img" class="icon icon--primary icon--medium">
+                            <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="timeline__partition"></div>
+                    <div class="timeline__item">
+                      <div class="timeline__header">
+                        <div class="timeline__icon">
+                          <svg role="img" class="icon icon--inverted icon--medium">
+                            <use xlink:href="images/icons/actions-sprite.svg#email-inverted"></use>
+                          </svg>
+                        </div>
+                        <div class="timeline__description">
+                          <div class="col col--sd-12">
+                            <div class="text text--primary text--bold text--medium">Contato</div>
+                          </div>
+                          <div class="col col--sd-12">
+                            <div class="text text--secondary text--small">
+                              contato@contato.com.br
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline__datetime">
+                          <div class="col col--sd-5 align--right">
+                            <svg role="img" class="icon icon--primary icon--medium padding-horizontal--medium">
+                              <use xlink:href="images/icons/actions-sprite.svg#email"></use>
+                            </svg>
+                          </div>
+                          <div class="col col--sd-7">
+                            <div class="col col--sd-12">
+                              <div class="text text--secondary text--small">
+                                12 maio
+                              </div>
+                            </div>
+                            <div class="col col--sd-12">
+                              <div class="text text--secondary text--small"> 08:00 hs</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="timeline__control">
+                          <svg role="img" class="icon icon--primary icon--medium">
+                            <use xlink:href="images/icons/actions-sprite.svg#chevron-down"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+</body>
+
+</html>

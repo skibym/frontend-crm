@@ -1,0 +1,18 @@
+.content{
+  width: 100%;
+  // max-width: 1200px;
+  box-sizing: border-box;
+  padding: $space--medium;
+
+  @media #{$tablets} {
+    flex-direction: row;
+    padding: $space--small $space--large;
+  }
+}
+
+.content--menu{
+  @media #{$tablets} {
+    margin-left: 95px;
+    padding: $space--medium $space--large;
+  }
+}

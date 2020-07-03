@@ -1,0 +1,9 @@
+<!-- By Sam Herbert (@sherb), for everyone. More @ http://goo.gl/7AJzbL -->
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke="#fff">
+      <g id="grupo" fill="none">
+        <path stroke-opacity="0.50" stroke-width="4.0" stroke-miterlimit="22.9256" d="M20.19 12c0,-4.52 -3.67,-8.19 -8.19,-8.19 -4.52,0 -8.19,3.67 -8.19,8.19 0,4.52 3.67,8.19 8.19,8.19 4.52,0 8.19,-3.67 8.19,-8.19z"/>
+         <path stroke-width="5.0" stroke-miterlimit="22.9256" d="M20.19 12c0,-4.52 -3.67,-8.19 -8.19,-8.19">
+              <animateTransform attributeName="transform" type="rotate" from="0 12 12" to="360 12 12" dur="0.6s" repeatCount="indefinite"/>
+         </path>
+      </g>
+</svg>

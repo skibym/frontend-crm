@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="pt-BR" class="full-height">
+
+<head>
+  <title>Biblioteca</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.default.css">
+</head>
+
+<body class="full-height">
+  <div class="shell">
+    <div class="navigation">
+      <a href="" class="navigation__user">
+        <img src="images/foto.jpg" alt="" class="navigation__user-item">
+        <div class="text text--center text--small  text--inverted navigation__name">Fulana</div>
+        <div class="navigation__notification">
+          <div class="text text--inverted text--bold">3</div>
+        </div>
+      </a>
+      <a href="" class="navigation__item is-active">
+        <img src="images/icons/proprietario.svg" class="navigation__icon" alt="">
+        <div class="navigation__title">
+          Proprietários
+        </div>
+      </a>
+      <a href="" class="navigation__item ">
+        <img src="images/icons/imoveis.svg" class="navigation__icon" alt="">
+        <div class="navigation__title text">
+          Imoveis
+        </div>
+      </a>
+      <a href="" class="navigation__item ">
+        <img src="images/icons/anuncios.svg" class="navigation__icon" alt="">
+        <div class="navigation__title">
+          Anúncios
+        </div>
+      </a>
+      <a href="" class="navigation__item ">
+        <img src="images/icons/config.svg" class="navigation__icon" alt="">
+        <div class="navigation__title">
+          Config
+        </div>
+      </a>
+      <a href="" class="navigation__logo">
+        <img src="images/logo.png" class="icon--logo" alt="">
+      </a>
+    </div>
+    <div class="top-bar top-bar--menu">
+      <div class="col col--pn-8 col--tb-4">
+        <div class="input">
+          <div class="input__info input__info--left ">
+            <input class="input__item" id="Name" name="Name" type="text" placeholder="">
+            <svg role="img" class="input__icon input__display--left">
+              <use xlink:href="images/icons/actions-sprite.svg#search"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="col col--pn-4 col--tb-8 align--right align--middle">
+        <div class="top-bar__items">
+          <nav class="col col--pn-12 align--right">
+            <button type="button" class="button--icon padding-horizontal--medium" title="Notificações">
+              <svg role="img" class="icon icon--primary icon--small">
+                <use xlink:href="images/icons/actions-sprite.svg#bell-inverted"></use>
+              </svg>
+            </button>
+            <button type="button" class="button--icon padding-horizontal--medium" title="Help">
+              <svg role="img" class="icon icon--primary icon--small">
+                <use xlink:href="images/icons/actions-sprite.svg#help-inverted"></use>
+              </svg>
+            </button>
+            <button type="button" class="button--icon padding-horizontal--medium" title="Configurações">
+              <svg role="img" class="icon icon--primary icon--small">
+                <use xlink:href="images/icons/actions-sprite.svg#settings-inverted"></use>
+              </svg>
+            </button>
+            <button type="button" class="button--icon padding-horizontal--medium" title="Sair">
+              <svg role="img" class="icon icon--primary icon--small">
+                <use xlink:href="images/icons/actions-sprite.svg#power"></use>
+              </svg>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="page-header page-header--menu">
+      <h1 class="title title--primary title--large">
+        Cadastro de Proprietário
+      </h1>
+      <div class="text text--medium">
+        Dados do Imóveis
+      </div>
+      <section class="breadcrumb">
+        <ul class="breadcrumb__box">
+          <li>
+            <a href="#">
+              <span>Home</span>
+            </a>
+          </li>
+          <li class="is-active">
+            <span>Dados do imóvel</span>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <div class="content content--menu">
+      <div class="row">
+        <div class="col col--sd-12">
+          <div class="progress-indicator">
+            <div class="progress-indicator__header">
+              <div class="progress-indicator__item is-active">
+                <div class="progress-indicator__numerator">1</div>
+                <span> Dados básicos</span>
+              </div>
+              <div class="progress-indicator__item ">
+                <div class="progress-indicator__numerator">2</div>
+                <span> Qual é o imóvel</span>
+              </div>
+              <div class="progress-indicator__item">
+                <div class="progress-indicator__numerator">3</div>
+                <span> Endereço</span>
+              </div>
+              <div class="progress-indicator__item">
+                <div class="progress-indicator__numerator">4</div>
+                <span> Qual é o imóvel</span>
+              </div>
+              <div class="progress-indicator__item">
+                <div class="progress-indicator__numerator">4</div>
+                <span> Qual é o imóvel</span>
+              </div>
+              <div class="progress-indicator__item">
+                <div class="progress-indicator__numerator">4</div>
+                <span> Qual é o imóvel</span>
+              </div>
+            </div>
+            <div class="progress-indicator__container">
+              <div class="row">
+                <div class="col col--sd-12 padding-bottom--large">
+                  <div class="status-panel">
+                    <div class="status-panel__icon">
+                    </div>
+                    <div class="status-panel__display">
+                      <div class="text text--small text--primary">Como está seu cadastro</div>
+                      <h2 class="title title--small title--primary">Apenas começando</h2>
+                      <div class="text text--small text--primary">Siga as proximas etapas!</div>
+                    </div>
+                    <div class="status-panel__link">
+                      <a href="" class="link link--medium link--primary ">
+                        <svg role="img" class="icon margin-horizontal--small icon--extra-small">
+                          <use xlink:href="images/icons/actions-sprite.svg#launch"></use>
+                        </svg>
+                        <span>Saiba mais</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col--sd-12 padding-bottom--large">
+                  <h4 class="title title--primary title--medium">
+                    Contato
+                  </h4>
+                  <div class="text text--primary text--small">
+                    Estes são apenas os dados iniciais do cadastro
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col col--sd-12 col--md-8">
+                  <div class="row">
+                    <div class="col col--sd-12">
+                      <label for="input1" class="label label--title">
+                        Contatos de email
+                      </label>
+                      <div class="row">
+                        <div class="col col--sd-12">
+                          <span class="label label--description">
+                            Adicione os emails do proprietario, poderá ser mais de um
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col col--sd-12 padding-bottom--large">
+                      <div class="box ">
+                        <div class="box__container">
+                          <div class="col col--sd-12 col--tb-8 padding--extra-small">
+                            <div class="input">
+                              <div class="col col--sd-12">
+                                <label for="input1" class="label label--title">
+                                  Email
+                                </label>
+                              </div>
+                              <div class="col col--sd-12">
+                                <div class="input__info">
+                                  <input class="input__item" id="input1" name="input1" type="text" placeholder=""
+                                    value=""></div>
+                                <span class="text text--error"></span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col col--sd-12 col--tb-4 padding--extra-small">
+                            <div class="toggle-group">
+                              <div class="col col--sd-12 ">
+                                <label for="" class="label label--title">
+                                  Email principal
+                                </label>
+                              </div>
+                              <div class="col col--sd-12 col--tb-6 padding-bottom--large">
+                                <div class="toggle-group__box">
+                                  <button class="toggle-group__item is-active margin-horizontal--extra-small">
+                                    Sim
+                                  </button>
+                                </div>
+                              </div>
+                              <span class="text text--error"></span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="box__footer">
+                          <button type="button" class="button  button--secondary">
+                            <svg role="img" class="icon icon--extra-small padding-right--small">
+                              <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+                            </svg>
+                            <span>Adicionar</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col col--sd-12">
+                      <label for="input1" class="label label--title">
+                        Email's adicionados
+                      </label>
+                      <div class="row">
+                        <div class="col col--sd-12">
+                          <span class="label label--description">
+                            Está é a lista de emails já adicionados para
+                            este proprietario
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col col--sd-12 padding-bottom--extra-large">
+                      <div class="box">
+                        <div class="box__container">
+                          <div class="pill">
+                            <div class="pill__item">
+                              <div class="text text--small text--primary">
+                                Minha casa minha vida
+                              </div>
+                              <button type="button" class="button--icon margin-left--small">
+                                <svg role="img" class="icon icon--extra-small icon--primary">
+                                  <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+                                </svg>
+                              </button>
+                            </div>
+                            <div class="pill__item">
+                              <div class="text text--small text--primary">Estudantes</div>
+                              <button type="button" class="button--icon margin-left--small">
+                                <svg role="img" class="icon--extra-small icon--primary">
+                                  <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+                                </svg>
+                              </button>
+                            </div>
+                            <div class="pill__item">
+                              <div class="text text--small text--primary">Solteiros</div>
+                              <button type="button" class="button--icon margin-left--small">
+                                <svg role="img" class="icon--extra-small icon--primary">
+                                  <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="box__footer">
+                          <button type="button" class="button  button--secondary">
+                            <svg role="img" class="icon icon--extra-small padding-right--small">
+                              <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+                            </svg>
+                            <span>Limpar todos</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col col--sd-12">
+                      <label for="input1" class="label label--title">
+                        Contatos Telefonicos
+                      </label>
+                      <div class="row">
+                        <div class="col col--sd-12">
+                          <span class="label label--description">
+                            Adicione os emails do proprietario, poderá ser
+                            mais de um
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col col--sd-12 padding-bottom--large">
+                      <div class="box ">
+                        <div class="box__container">
+                          <div class="col col--sd-12 col--tb-8 padding--extra-small">
+                            <div class="input">
+                              <div class="col col--sd-12">
+                                <label for="input1" class="label label--title">Telefone</label>
+                              </div>
+                              <div class="col col--sd-12">
+                                <div class="input__info">
+                                  <input class="input__item" id="input1" name="input1" type="text" placeholder=""
+                                    value=""></div>
+                                <span class="text text--error"></span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col col--sd-12 col--tb-4 padding--extra-small">
+                            <div class="toggle-group">
+                              <div class="col col--sd-12 ">
+                                <label for="" class="label label--title">Telefone principal</label>
+                              </div>
+                              <div class="col col--sd-12 col--tb-6 padding-bottom--large">
+                                <div class="toggle-group__box">
+                                  <button
+                                    class="toggle-group__item is-active margin-horizontal--extra-small">Sim</button>
+                                </div>
+                              </div>
+                              <span class="text text--error"></span>
+                            </div>
+                          </div>
+                          <div class="col col--sd-12">
+                            <div class="toggle-group">
+                              <div class="col col--sd-12">
+                                <label for="" class="label label--title">
+                                  Tipo
+                                </label>
+                                <div class="row">
+                                  <div class="col col--sd-12">
+                                    <label for="" class="label label--description">
+                                      Estes são apenas os dados iniciais do cadastro
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col col--sd-8 padding-bottom--large">
+                                <div class="toggle-group__box">
+                                  <button
+                                    class="toggle-group__item is-active margin-horizontal--extra-small">Residencial</button>
+                                  <button class="toggle-group__item margin-horizontal--extra-small">Comercial</button>
+                                  <button class="toggle-group__item margin-horizontal--extra-small">Recados</button>
+                                </div>
+                              </div>
+                              <span class="text text--error"></span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="box__footer">
+                          <button type="button" class="button  button--secondary">
+                            <svg role="img" class="icon icon--extra-small padding-right--small">
+                              <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+                            </svg>
+                            <span>Adicionar</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col col--sd-12">
+                      <label for="input1" class="label label--title">Telefones adicionados</label>
+                      <div class="row">
+                        <div class="col col--sd-12">
+                          <span class="label label--description">Está é a lista de telefones já adicionados para
+                            este proprietario</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col col--sd-12 padding-bottom--extra-large">
+                      <div class="box">
+                        <div class="box__container">
+                          <div class="pill">
+                            <div class="pill__item">
+                              <div class="text text--small text--primary">Minha casa minha vida</div>
+                              <button type="button" class="button--icon margin-left--small">
+                                <svg role="img" class="icon icon--extra-small icon--primary">
+                                  <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+                                </svg>
+                              </button>
+                            </div>
+                            <div class="pill__item">
+                              <div class="text text--small text--primary">Estudantes</div>
+                              <button type="button" class="button--icon margin-left--small">
+                                <svg role="img" class="icon--extra-small icon--primary">
+                                  <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+                                </svg>
+                              </button>
+                            </div>
+                            <div class="pill__item">
+                              <div class="text text--small text--primary">Solteiros</div>
+                              <button type="button" class="button--icon margin-left--small">
+                                <svg role="img" class="icon--extra-small icon--primary">
+                                  <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="box__footer">
+                          <button type="button" class="button  button--secondary">
+                            <svg role="img" class="icon icon--extra-small padding-right--small">
+                              <use xlink:href="images/icons/actions-sprite.svg#close"></use>
+                            </svg>
+                            <span>Limpar todos</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="progress-indicator__footer">
+              <div class="col col--sd-6">
+                <button type="button" class="button button--secondary">
+                  <svg class="icon margin-right--small align--right icon--small icon--primary" viewBox="0 0 24 24">
+                    <g>
+                      <path d="M18.2,19.6L10.5,12l7.6-7.6L15.8,2l-10,10l10,10L18.2,19.6z"></path>
+                    </g>
+                  </svg>
+                  <span>Voltar</span>
+                </button>
+              </div>
+              <div class="col col--sd-6 align--right">
+                <button type="button" class="button button--primary">
+                  <span>Avançar</span>
+                  <svg class="icon margin-left--small align--right icon--small icon--primary" viewBox="0 0 24 24">
+                    <g>
+                      <path d="M5.8,19.6l7.6-7.6L5.8,4.3L8.2,2l10,10l-10,10L5.8,19.6z"></path>
+                    </g>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

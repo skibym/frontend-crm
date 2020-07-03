@@ -1,0 +1,78 @@
+/* breadcrumbs */
+.breadcrumb{
+  width: 100%;
+  display: flex;
+  margin-top: $space--small;
+}
+
+ul.breadcrumb__box{
+  padding: 0;
+  line-height: $text--medium;
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+
+  @media #{$tablets} {
+    flex-direction: row;
+  }
+}
+
+ul.breadcrumb__box li {
+  display: flex;
+  font-size: $text--small;
+  font-family: $font-pattern;
+  color: $text--primary;
+  text-shadow: $text-shadow;
+}
+
+ul.breadcrumb__box li+li:before {
+  padding: 0 $space--medium;
+  color: $text--primary;
+
+  @media #{$tablets} {
+    content: "\0203a";
+    font-weight:  $text-weight--small;
+    font-size: 19px;
+  }
+}
+
+ul.breadcrumb__box li a {
+  text-decoration: none;
+  color: $text--secondary;
+
+  &.is-active:hover{
+    text-decoration: none;
+  }
+}
+
+ul.breadcrumb__box li {
+  display: none;
+
+  @media #{$tablets} {
+    display: flex;
+  }
+
+  &.is-active{
+    display: flex;
+    font-weight: $text-weight--large;
+    font-size: $text--medium;
+    color: $title--secondary;
+  }
+}
+
+ul.breadcrumb__box li a:hover {
+  text-decoration: underline;
+}
+
+.arrow {
+  position: absolute;
+  right: 10px;
+  top: 4px;
+
+  @media #{$tablets} {
+    display: none;
+  }
+}

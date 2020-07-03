@@ -1,0 +1,82 @@
+.sales-steps {
+  display: flex;
+  width: 100%;
+  padding-right: $space--medium;
+}
+
+.steps {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-content: center;
+  cursor: pointer;
+  margin-right: $space--medium;
+  padding: $space--medium;
+  padding-left: $space--large;
+  position: relative;
+  background-color: $background--strong;
+  border-radius: $border--radius;
+  height: 34px;
+  max-width: 160px;
+
+  .text {
+    display: none;
+  }
+
+  &:after,
+  &:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: -16px;
+    width: 0;
+    height: 0;
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-left: 17px solid $background--strong;
+    z-index: $visible;
+  }
+
+  &:before {
+    right: auto;
+    left: 0;
+    border-left: 17px solid $background--clean;
+    z-index: 0;
+  }
+
+  &:first-child:before {
+    border: none;
+  }
+
+  &:first-child {
+    padding-left: $space--medium;
+  }
+
+  &.is-active {
+    background-color: $color--primary;
+    flex-grow: 8;
+
+    .text {
+      display: block;
+      padding: 0 $space--small;
+    }
+
+    &:after {
+      border-left: 17px solid $color--primary;
+    }
+  }
+
+  &.is-done {
+    background-color: $color--success;
+
+    &:after {
+      border-left: 17px solid $color--success;
+    }
+  }
+
+  @media #{$tablets} {
+    .text {
+      display: block;
+    }
+  }
+}
